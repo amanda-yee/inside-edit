@@ -15,8 +15,7 @@ export default function Hero() {
 
         <div className="absolute z-10 flex flex-col ml-10 top-[30%] gap-6 text-[#ffffff]">
           <Image
-            className=""
-            src="/logo-white2.png"
+            src="/logo-white.png"
             alt="Inside Edit Logo"
             width={250}
             height={50}
@@ -27,7 +26,7 @@ export default function Hero() {
         <div className="absolute z-10 bottom-5 left-1/2 transform -translate-x-1/2"> 
           <Image
             className=""
-            src="/arrow-down.svg"
+            src="/icon-arrow-down.svg"
             alt="Down Arrow"
             width={40}
             height={25}
