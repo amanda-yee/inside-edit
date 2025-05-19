@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Links from "./Links";
 
 export default function Hero() {
     return (
@@ -12,7 +13,7 @@ export default function Hero() {
           priority // tells next.js to load image asap
         />
 
-        <div className="absolute z-10 flex flex-col ml-10 top-[30%] gap-6">
+        <div className="absolute z-10 flex flex-col ml-10 top-[30%] gap-6 text-[#ffffff]">
           <Image
             className=""
             src="/logo-white2.png"
@@ -20,39 +21,7 @@ export default function Hero() {
             width={250}
             height={50}
           />
-
-          <ul className="text-[#ffffff]">
-            <li>
-              <a
-              className="hover:underline"
-              href="https://www.insideedit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-                projects
-              </a>
-            </li>
-            <li>
-              <a
-              className="hover:underline"
-              href="https://www.insideedit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-                collaborations
-              </a>
-            </li>
-            <li>
-              <a
-              className="hover:underline"
-              href="https://www.insideedit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-                about
-              </a>
-            </li>
-          </ul>
+          <Links />
         </div>
 
         <div className="absolute z-10 bottom-5 left-1/2 transform -translate-x-1/2"> 
