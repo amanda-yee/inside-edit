@@ -1,6 +1,6 @@
 export default function Links() {
     return (   
-        <ul>
+        <ul className="text-lg">
             <li>
               <a
               className="hover:underline"

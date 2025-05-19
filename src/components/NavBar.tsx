@@ -9,7 +9,7 @@ export default function NavBar() {
             className="py-10"
             src="/logo-black-rotated.png"
             alt="Inside Edit Logo"
-            width={40}
+            width={25}
             height={150}
             />
             <Links />
