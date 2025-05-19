@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="absolute z-10 flex flex-col ml-10 top-[30%] gap-6 text-[#ffffff]">
           <Image
             className=""
-            src="/logo-white2.png"
+            src="/logo-white.png"
             alt="Inside Edit Logo"
             width={250}
             height={50}
