@@ -12,12 +12,12 @@ export default function UnderConstruction() {
                 height={150}
             />
             <div>
-                <h1 className="text-2xl pt-10">
+                <h1 className="text-2xl pt-10 text-center">
                     Website is currently under construction
                 </h1>
             </div>
             <div>
-                <h2 className="text-2xl pt-10">
+                <h2 className="text-2xl pt-10 text-center">
                     Contact us here:
                 </h2>
             </div>
