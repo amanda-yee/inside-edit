@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Links from "./Links";
+import ArrowDown from "./icons/ArrowDown.svg"
 
 export default function Hero() {
     return (
@@ -24,20 +25,10 @@ export default function Hero() {
         </div>
 
         <div className="absolute z-10 bottom-5 left-1/2 transform -translate-x-1/2"> 
-        <a href="#main">
-          <Image
-              className=""
-              src="/icon-arrow-down.svg"
-              alt="Down Arrow"
-              width={40}
-              height={25}
-          />
-        </a>
-          
-          
+          <a href="#main">
+            <ArrowDown className="h-10 text-[#ffffff] hover:text-[#b6b5af]" />
+          </a>
         </div>
-
-        
       </main>
     )
 }
