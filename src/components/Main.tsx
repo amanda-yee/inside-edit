@@ -24,18 +24,21 @@ export default function Main() {
                         title="New York City"
                         description="Some description of the project or maybe no description at all."
                         imgSrc="/project-image-1.png"
+                        pageId="projects/#nyc"
                         />
 
                         <ProjectCard 
                         title="Montauk"
                         description="Some description of project or maybe no description at all."
                         imgSrc="/project-image-2.png"
-
+                        pageId="projects/#montauk"
                         />
+
                         <ProjectCard 
                         title="Upstate New York"
                         description="Some description of project or maybe no description at all."
                         imgSrc="/project-image-3.png"
+                        pageId="projects/#upstate"
                         />
                     </div>
                 </div>
