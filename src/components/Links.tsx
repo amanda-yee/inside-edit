@@ -5,8 +5,6 @@ export default function Links() {
               <a
               className="hover:underline"
               href="https://www.insideedit.com"
-              target="_blank"
-              rel="noopener noreferrer"
               >
                 projects
               </a>
@@ -15,8 +13,6 @@ export default function Links() {
               <a
               className="hover:underline"
               href="https://www.insideedit.com"
-              target="_blank"
-              rel="noopener noreferrer"
               >
                 collaborations
               </a>
@@ -24,9 +20,7 @@ export default function Links() {
             <li>
               <a
               className="hover:underline"
-              href="https://www.insideedit.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/about"
               >
                 about
               </a>
