@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Links from "./Links";
+import NavLinks from "./NavLinks";
 import ArrowDown from "./icons/ArrowDown.svg"
 
 export default function Hero() {
@@ -21,7 +21,7 @@ export default function Hero() {
             width={250}
             height={50}
           />
-          <Links />
+          <NavLinks />
         </div>
 
         <div className="absolute z-10 bottom-5 left-1/2 transform -translate-x-1/2"> 

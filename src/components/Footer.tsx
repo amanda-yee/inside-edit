@@ -1,18 +1,21 @@
 import Image from "next/image"
 import Envelope from "./icons/Envelope.svg"
 import Instagram from "./icons/Instagram.svg"
+import Link from "next/link"
 
 export default function Footer() {
     return (
         <footer className="flex justify-between mx-20 mt-6 mb-2 border-t border-t-gray-300">
           <div className="flex items-center">
-            <Image
-            className="object-contain h-auto"
-            src="/logo-black.png"
-            alt="Inside Edit Logo"
-            width={150}
-            height={50}
-            />
+            <Link href="/">
+              <Image
+              className="object-contain h-auto"
+              src="/logo-black.png"
+              alt="Inside Edit Logo"
+              width={150}
+              height={50}
+              />
+            </Link>
           </div>
           
           <div className="flex flex-col justify-end pt-8">
