@@ -24,13 +24,16 @@ export default function Hero() {
         </div>
 
         <div className="absolute z-10 bottom-5 left-1/2 transform -translate-x-1/2"> 
+        <a href="#main">
           <Image
-            className=""
-            src="/icon-arrow-down.svg"
-            alt="Down Arrow"
-            width={40}
-            height={25}
+              className=""
+              src="/icon-arrow-down.svg"
+              alt="Down Arrow"
+              width={40}
+              height={25}
           />
+        </a>
+          
           
         </div>
 

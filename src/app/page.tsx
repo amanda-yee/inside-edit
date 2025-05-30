@@ -6,7 +6,10 @@ export default function Home() {
   return (
     <div className="">
       <Hero />
-      <Main />
+      <div id="main">
+        <Main />
+      </div>
+      
       {/* <UnderConstruction /> */}
     </div>
   );
