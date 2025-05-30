@@ -40,7 +40,7 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div className="pb-20">
+                <div className="pb-10">
                     <h2 className="font-bold text-4xl pb-6">
                         services
                     </h2>
