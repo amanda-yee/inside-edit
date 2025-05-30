@@ -31,9 +31,10 @@ export default function Hero() {
             width={40}
             height={25}
           />
-
+          
         </div>
 
+        
       </main>
     )
 }

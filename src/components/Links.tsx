@@ -4,13 +4,13 @@ export default function Links() {
     return (   
         <ul className="text-lg">
             <li>
-              <Link className="hover:underline" href="/projects">projects</Link>
+              <Link className="hover:font-bold" href="/projects">projects</Link>
             </li>
             <li>
-              <Link className="hover:underline" href="/collaborations">collaborations</Link>
+              <Link className="hover:font-bold" href="/collaborations">collaborations</Link>
             </li>
             <li>
-              <Link className="hover:underline" href="/about">about</Link>
+              <Link className="hover:font-bold" href="/about">about</Link>
             </li>
           </ul>
     )
