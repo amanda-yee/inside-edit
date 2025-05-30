@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Footer() {
     return (
-        <footer className="flex justify-between mx-20 pb-2 border-t border-t-gray-300">
+        <footer className="flex justify-between mx-20 mt-6 mb-2 border-t border-t-gray-300">
           <div className="flex items-center">
             <Image
             className="object-contain h-auto"
