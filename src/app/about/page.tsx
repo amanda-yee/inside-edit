@@ -1,5 +1,7 @@
 import NavBar from "@/components/NavBar";
 import Image from "next/image"
+import Phone from "@/components/icons/Phone.svg"
+import Envelope from "@/components/icons/Envelope.svg"
 
 export default function AboutPage() {
     return (
@@ -40,29 +42,14 @@ export default function AboutPage() {
                         get in touch
                     </h3>
                     <div className="flex gap-4 pb-4">
-                        <Image
-                        src="/icon-envelope.svg"
-                        alt="Mail Icon"
-                        width={25}
-                        height={25}
-                        />
-                        <a href="mailto:lheintz@insideedit.com">
-                            lheintz@insideedit.com
-                        </a>
+                        <Envelope className="w-6 h-6" />
+                        <a href="mailto:lheintz@insideedit.com" className="hover:font-bold"> lheintz@insideedit.com </a>
                     </div>
 
                     <div className="flex gap-4">
-                        <Image
-                        src="/icon-phone.svg"
-                        alt="Mail Icon"
-                        width={25}
-                        height={25}
-                        />
-                        <a href="tel:+13472625440">
-                            (347) 262 5440
-                        </a>
+                        <Phone className="w-6 h-6" />
+                        <a href="tel:+13472625440" className="hover:font-bold"> (347) 262 5440 </a>
                     </div>
-
                 </div>
             </div>
         </div>

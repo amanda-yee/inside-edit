@@ -1,4 +1,6 @@
 import Image from "next/image"
+import Envelope from "./icons/Envelope.svg"
+import Instagram from "./icons/Instagram.svg"
 
 export default function Footer() {
     return (
@@ -19,13 +21,7 @@ export default function Footer() {
           
           <div className="flex items-center gap-2">
             <a href="mailto:lheintz@insideedit.com">
-              <Image
-              className=""
-              src="/icon-envelope.svg"
-              alt="Mail Icon"
-              width={25}
-              height={25}
-              />
+              <Envelope className="w-6 h-6 hover:text-[#b6b5af]" />
             </a>
 
             <a 
@@ -33,13 +29,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image
-              className=""
-              src="/icon-instagram.svg"
-              alt="Instagram Icon"
-              width={30}
-              height={30}
-              />
+              <Instagram className="w-7 h-7 hover:text-[#b6b5af]" />
             </a>
           </div>
           
