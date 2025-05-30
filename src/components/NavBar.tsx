@@ -1,5 +1,5 @@
 
-import Links from "./Links"
+import NavLinks from "./NavLinks"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -16,7 +16,7 @@ export default function NavBar() {
                 />
             </Link>
             
-            <Links />
+            <NavLinks />
         </nav>
     )
 }

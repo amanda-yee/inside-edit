@@ -10,7 +10,7 @@ export default function Main() {
             
             {/* flex-1 makes second child grow and fill all remaining horitzontal space */}
             <div className="flex-1"> 
-                <h1 className="text-[var(--primary)] font-bold text-6xl text-center py-30">
+                <h1 className="text-[var(--primary)] font-bold text-6xl text-center py-25">
                     Full service design and styling studio, based in New York.
                 </h1>
 
