@@ -1,35 +1,16 @@
+import Link from "next/link"
+
 export default function Links() {
     return (   
         <ul className="text-lg">
             <li>
-              <a
-              className="hover:underline"
-              href="https://www.insideedit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-                projects
-              </a>
+              <Link className="hover:underline" href="/projects">projects</Link>
             </li>
             <li>
-              <a
-              className="hover:underline"
-              href="https://www.insideedit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-                collaborations
-              </a>
+              <Link className="hover:underline" href="/collaborations">collaborations</Link>
             </li>
             <li>
-              <a
-              className="hover:underline"
-              href="https://www.insideedit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-                about
-              </a>
+              <Link className="hover:underline" href="/about">about</Link>
             </li>
           </ul>
     )
