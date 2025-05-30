@@ -1,17 +1,23 @@
+'use client'
+
 import Link from "next/link"
+import { usePathname } from 'next/navigation';
 
 export default function Links() {
+  const pathname = usePathname()
+  
     return (   
         <ul className="text-lg">
             <li>
-              <Link className="hover:font-bold" href="/projects">projects</Link>
+              <Link href="/projects" className={pathname === '/projects' ? 'font-bold' : 'hover:font-bold'} >projects</Link>
             </li>
             <li>
-              <Link className="hover:font-bold" href="/collaborations">collaborations</Link>
+              <Link href="/collaborations" className={pathname === '/collaborations' ? 'font-bold' : 'hover:font-bold'}>collaborations</Link>
             </li>
             <li>
-              <Link className="hover:font-bold" href="/about">about</Link>
+              <Link href="/about" className={pathname === '/about' ? 'font-bold' : 'hover:font-bold'}>about</Link>
             </li>
-          </ul>
+        </ul>
+        
     )
 }
