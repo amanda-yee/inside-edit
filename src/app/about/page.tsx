@@ -1,5 +1,5 @@
 import NavBar from "@/components/NavBar";
-import Image from "next/image"  
+import Image from "next/image"
 
 export default function AboutPage() {
     return (
@@ -41,7 +41,6 @@ export default function AboutPage() {
                     </h3>
                     <div className="flex gap-4 pb-4">
                         <Image
-                        className=""
                         src="/icon-envelope.svg"
                         alt="Mail Icon"
                         width={25}
@@ -54,7 +53,6 @@ export default function AboutPage() {
 
                     <div className="flex gap-4">
                         <Image
-                        className=""
                         src="/icon-phone.svg"
                         alt="Mail Icon"
                         width={25}
