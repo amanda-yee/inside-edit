@@ -13,12 +13,12 @@ export default function CollaborationsPage() {
             </div>
 
             <div className="flex-1"> 
-                <h1 className="text-[var(--primary)] font-bold text-6xl pt-10 pb-6">
+                <h1 className="text-[var(--primary)] font-bold pt-10 pb-6">
                     collaborations
                 </h1>
 
-                <h2 className="text-3xl pb-6">
-                    Subheading Subheading Subheading Subheading
+                <h2 className="pb-6">
+                    Subheading Subheading
                 </h2>
 
                 <div className="flex gap-12 font-geist">

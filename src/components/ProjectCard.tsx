@@ -25,7 +25,7 @@ export default function ProjectCard( {title, description, imgSrc, pageId}: Proje
             </div>
 
             <div>
-                <h3 className="font-bold text-lg sm:text-xl py-4">
+                <h3 className="font-bold py-4">
                     {title}
                 </h3>
 

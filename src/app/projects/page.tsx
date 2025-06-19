@@ -14,12 +14,12 @@ export default function ProjectsPage() {
             </div>
 
             <div className="flex-1"> 
-                <h1 className="text-[var(--primary)] font-bold text-6xl pt-10 pb-6">
+                <h1 className="text-[var(--primary)] font-bold pt-10 pb-6">
                     projects
                 </h1>
 
                 <div id="nyc" className="font-geist pb-10">
-                    <h2 className="font-bold text-3xl py-6">
+                    <h2 className="font-bold py-6">
                         New York City
                     </h2>
                     <div className="flex gap-12">
@@ -39,7 +39,7 @@ export default function ProjectsPage() {
                 </div>
 
                 <div id="montauk" className="font-geist pb-10">
-                    <h2 className="font-bold text-3xl py-6">
+                    <h2 className="font-bold py-6">
                         Montauk
                     </h2>
                     <div className="flex gap-12">
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
                 </div>
 
                 <div id="upstate" className="font-geist pb-10">
-                    <h2 className="font-bold text-3xl py-6">
+                    <h2 className="font-bold py-6">
                         Upstate New York
                     </h2>
                     <div className="flex gap-12">

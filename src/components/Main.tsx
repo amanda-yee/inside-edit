@@ -16,12 +16,12 @@ export default function Main() {
             
             {/* flex-1 makes second child grow and fill all remaining horitzontal space */}
             <div className="flex-1"> 
-                <h1 className="text-[var(--primary)] font-bold text-4xl md:text-6xl text-center py-[10%]">
+                <h1 className="text-[var(--primary)] font-bold text-center py-[8%]">
                     Full service design and styling studio, based in New York.
                 </h1>
 
                 <div className="pb-[5%]">
-                    <h2 className="font-bold text-4xl pb-6">
+                    <h2 className="font-bold pb-6">
                         selected projects
                     </h2>
 
@@ -50,13 +50,13 @@ export default function Main() {
                 </div>
 
                 <div className="pb-10">
-                    <h2 className="font-bold text-4xl pb-6">
+                    <h2 className="font-bold pb-6">
                         services
                     </h2>
 
                     <div className="font-geist flex flex-col md:flex-row">
                         <div className="md:w-1/3">
-                            <h3 className="font-bold text-lg sm:text-xl py-4">
+                            <h3 className="font-bold py-4">
                                 Design
                             </h3>
                             <ul className="sm:text-lg list-disc list-inside">
@@ -68,7 +68,7 @@ export default function Main() {
                         </div>
 
                         <div className="md:w-1/3">
-                            <h3 className="font-bold text-lg sm:text-xl py-4">
+                            <h3 className="font-bold py-4">
                                 Specifications
                             </h3>
                             <ul className="sm:text-lg list-disc list-inside">
@@ -80,7 +80,7 @@ export default function Main() {
                         </div>
 
                         <div className="md:w-1/3">
-                            <h3 className="font-bold text-lg sm:text-xl py-4">
+                            <h3 className="font-bold py-4">
                                 Product Management
                             </h3>
                             <ul className="sm:text-lg list-disc list-inside">

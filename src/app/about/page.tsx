@@ -16,11 +16,11 @@ export default function AboutPage() {
             </div>
 
             <div className="flex-1"> 
-                <h1 className="text-[var(--primary)] font-bold text-6xl pt-10 pb-6">
+                <h1 className="text-[var(--primary)] font-bold pt-10 pb-6">
                     about us
                 </h1>
 
-                <h2 className="text-3xl pb-6">
+                <h2 className="pb-6">
                     Subheading Subheading
                 </h2>
 
@@ -44,9 +44,9 @@ export default function AboutPage() {
                 </div>
 
                 <div>
-                    <h3 className="font-bold text-4xl pb-6">
+                    <h2 className="font-bold pb-6">
                         get in touch
-                    </h3>
+                    </h2>
                     <div className="flex gap-4 pb-4">
                         <Envelope className="w-6 h-6" />
                         <a href="mailto:lheintz@insideedit.com" className="hover:font-bold"> lheintz@insideedit.com </a>
