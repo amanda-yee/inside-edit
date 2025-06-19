@@ -1,25 +1,31 @@
-import NavBar from "./NavBar"
+import NavBarSide from "./NavBarSide"
+import NavBarTop from "./NavBarTop"
 import ProjectCard from "./ProjectCard"
 
 export default function Main() {
     return (
-        <div className="flex pr-6">
-            <div>
-                <NavBar />
+        <div className="flex flex-col lg:flex-row px-6">
+            
+            <div className="block lg:hidden">
+                <NavBarTop />
+            </div>
+            
+            <div className="hidden lg:block">
+                <NavBarSide />
             </div>
             
             {/* flex-1 makes second child grow and fill all remaining horitzontal space */}
             <div className="flex-1"> 
-                <h1 className="text-[var(--primary)] font-bold text-6xl text-center py-25">
+                <h1 className="text-[var(--primary)] font-bold text-4xl md:text-6xl text-center py-[10%]">
                     Full service design and styling studio, based in New York.
                 </h1>
 
-                <div className="pb-20">
+                <div className="pb-[5%]">
                     <h2 className="font-bold text-4xl pb-6">
                         selected projects
                     </h2>
 
-                    <div className="flex justify-between">
+                    <div className="flex flex-col lg:flex-row justify-between">
                         <ProjectCard 
                         title="New York City"
                         description="Some description of the project or maybe no description at all."
@@ -48,12 +54,12 @@ export default function Main() {
                         services
                     </h2>
 
-                    <div className="flex">
-                        <div className="font-geist w-1/3">
-                            <h3 className="font-bold text-xl py-4">
+                    <div className="font-geist flex flex-col md:flex-row">
+                        <div className="md:w-1/3">
+                            <h3 className="font-bold text-lg sm:text-xl py-4">
                                 Design
                             </h3>
-                            <ul className="text-lg list-disc list-inside">
+                            <ul className="sm:text-lg list-disc list-inside">
                                 <li>service service</li>
                                 <li>service service</li>
                                 <li>service service</li>
@@ -61,11 +67,11 @@ export default function Main() {
                             </ul>
                         </div>
 
-                        <div className="font-geist w-1/3">
-                            <h3 className="font-bold text-xl py-4">
+                        <div className="md:w-1/3">
+                            <h3 className="font-bold text-lg sm:text-xl py-4">
                                 Specifications
                             </h3>
-                            <ul className="text-lg list-disc list-inside">
+                            <ul className="sm:text-lg list-disc list-inside">
                                 <li>service service</li>
                                 <li>service service</li>
                                 <li>service service</li>
@@ -73,11 +79,11 @@ export default function Main() {
                             </ul>
                         </div>
 
-                        <div className="font-geist w-1/3">
-                            <h3 className="font-bold text-xl py-4">
+                        <div className="md:w-1/3">
+                            <h3 className="font-bold text-lg sm:text-xl py-4">
                                 Product Management
                             </h3>
-                            <ul className="text-lg list-disc list-inside">
+                            <ul className="sm:text-lg list-disc list-inside">
                                 <li>service service</li>
                                 <li>service service</li>
                                 <li>service service</li>
@@ -86,6 +92,7 @@ export default function Main() {
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     )

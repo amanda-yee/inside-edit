@@ -1,13 +1,18 @@
-import NavBar from "@/components/NavBar";
+import NavBarSide from "@/components/NavBarSide";
+import NavBarTop from "@/components/NavBarTop";
 import Image from "next/image"
 import Phone from "@/components/icons/Phone.svg"
 import Envelope from "@/components/icons/Envelope.svg"
 
 export default function AboutPage() {
     return (
-        <div className="flex pr-6 mr-10">
-            <div>
-                <NavBar />
+        <div className="flex flex-col lg:flex-row px-6">
+            <div className="block lg:hidden">
+                <NavBarTop />
+            </div>
+            
+            <div className="hidden lg:block">
+                <NavBarSide />
             </div>
 
             <div className="flex-1"> 
@@ -16,11 +21,11 @@ export default function AboutPage() {
                 </h1>
 
                 <h2 className="text-3xl pb-6">
-                    Subheading Subheading Subheading Subheading
+                    Subheading Subheading
                 </h2>
 
-                <div className="flex gap-12 pb-6">
-                    <div className="flex-1 font-geist">
+                <div className="flex flex-col lg:flex-row pb-12 max-w-[100%]">
+                    <div className="flex-1 font-geist pr-4 pb-4">
                         <p>
                             Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
                             <br></br>
@@ -28,13 +33,14 @@ export default function AboutPage() {
                             Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
                         </p>
                     </div>
-
-                    <Image
-                    src="/project-image-1.png"
-                    alt="Inside Edit Logo"
-                    width={350}
-                    height={150}
-                    />
+                    <div className="relative lg:w-[30%] h-[300px]">
+                        <Image
+                        src="/project-image-1.png"
+                        alt="Inside Edit Logo"
+                        fill
+                        style={{ objectFit: 'contain' }}
+                        />
+                    </div>
                 </div>
 
                 <div>

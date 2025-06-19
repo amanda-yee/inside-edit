@@ -7,7 +7,7 @@ export default function NavLinks() {
   const pathname = usePathname()
   
     return (   
-        <ul className="text-lg">
+        <ul className="sm:text-lg">
             <li>
               <Link href="/projects" className={pathname === '/projects' ? 'font-bold' : 'hover:font-bold'} >projects</Link>
             </li>

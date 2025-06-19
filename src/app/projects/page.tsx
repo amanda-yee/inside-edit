@@ -1,11 +1,16 @@
 import Image from "next/image"
-import NavBar from "@/components/NavBar";
+import NavBarSide from "@/components/NavBarSide";
+import NavBarTop from "@/components/NavBarTop";
 
 export default function ProjectsPage() {
     return (
-        <div className="flex pr-6 mr-10">
-            <div>
-                <NavBar />
+        <div className="flex flex-col lg:flex-row px-6">
+            <div className="block lg:hidden">
+                <NavBarTop />
+            </div>
+            
+            <div className="hidden lg:block">
+                <NavBarSide />
             </div>
 
             <div className="flex-1"> 
@@ -18,7 +23,7 @@ export default function ProjectsPage() {
                         New York City
                     </h2>
                     <div className="flex gap-12">
-                        <div className="w-[80%] pb-4">
+                        <div className="lg:w-[80%] pb-4">
                             <p>
                                 Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
                             </p>
@@ -38,7 +43,7 @@ export default function ProjectsPage() {
                         Montauk
                     </h2>
                     <div className="flex gap-12">
-                        <div className="w-[80%] pb-4">
+                        <div className="lg:w-[80%] pb-4">
                             <p>
                                 Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
                             </p>
@@ -58,7 +63,7 @@ export default function ProjectsPage() {
                         Upstate New York
                     </h2>
                     <div className="flex gap-12">
-                        <div className="w-[80%] pb-4">
+                        <div className="lg:w-[80%] pb-4">
                             <p>
                                 Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
                             </p>

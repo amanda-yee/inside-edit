@@ -1,10 +1,15 @@
-import NavBar from "@/components/NavBar";
+import NavBarSide from "@/components/NavBarSide";
+import NavBarTop from "@/components/NavBarTop";
 
 export default function CollaborationsPage() {
     return (
-        <div className="flex pr-6 mr-10">
-            <div>
-                <NavBar />
+        <div className="flex flex-col lg:flex-row px-6">
+            <div className="block lg:hidden">
+                <NavBarTop />
+            </div>
+            
+            <div className="hidden lg:block">
+                <NavBarSide />
             </div>
 
             <div className="flex-1"> 
