@@ -9,14 +9,14 @@ export default function Footer() {
 
           {/* Inside Edit Logo + Icons */}
           <div className="flex justify-between pt-4">
-            <div>
+            <div className="w-full max-w-[125px]">
               <Link href="/">
                 <Image
-                className="object-contain h-auto"
                 src="/logo-black.png"
                 alt="Inside Edit Logo"
-                width={150}
-                height={50}
+                width={100}
+                height={0}
+                className="w-full h-auto object-contain"
                 />
               </Link>
             </div>

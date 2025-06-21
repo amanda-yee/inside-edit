@@ -5,13 +5,13 @@ import Link from "next/link"
 
 export default function NavBarTop() {
     return (   
-        <nav className="sticky top-0 flex justify-between mt-[2%]">
+        <nav className="flex justify-between items-center">
             <Link href="/">
                 <Image
                 className="justify-center"
                 src="/logo-black.png"
                 alt="Inside Edit Logo"
-                width={150}
+                width={125}
                 height={0}
                 />
             </Link>

@@ -7,7 +7,7 @@ import Envelope from "@/components/icons/Envelope.svg"
 export default function AboutPage() {
     return (
         <div className="flex flex-col lg:flex-row px-6">
-            <div className="block lg:hidden">
+            <div className="sticky top-0 py-2 z-50 bg-[var(--background)] block lg:hidden">
                 <NavBarTop />
             </div>
             
@@ -34,11 +34,11 @@ export default function AboutPage() {
                         </p>
                     </div>
                     <div className="relative lg:w-[30%] h-[300px]">
-                        <Image
+                        <Image 
                         src="/project-image-1.png"
                         alt="Inside Edit Logo"
                         fill
-                        style={{ objectFit: 'contain' }}
+                        className="object-contain"
                         />
                     </div>
                 </div>

@@ -6,6 +6,10 @@
   --primary: #9B8585;
 }
 
+.font-geist {
+  font-family: var(--font-geist-sans);
+}
+
 @layer base {
   /* vw - viewport width */
   /* clamp(min, preferred, max) */
@@ -15,7 +19,7 @@
     font-size: clamp(3rem, 4vw, 5rem);
   }
   h2 {
-    font-size: clamp(1.5rem, 2vw, 3rem);
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
   }
   h3 {
     font-size: clamp(1.25rem, 1.5vw, 2rem);
@@ -47,6 +51,3 @@ body {
   font-family: var(--font-inconsolata), var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
 
-.font-geist {
-  font-family: var(--font-geist-sans);
-}

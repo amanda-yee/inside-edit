@@ -4,7 +4,7 @@ import NavBarTop from "@/components/NavBarTop";
 export default function CollaborationsPage() {
     return (
         <div className="flex flex-col lg:flex-row px-6">
-            <div className="block lg:hidden">
+            <div className="sticky top-0 py-2 z-50 bg-[var(--background)] block lg:hidden">
                 <NavBarTop />
             </div>
             
