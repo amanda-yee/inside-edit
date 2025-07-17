@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Envelope from "./icons/Envelope.svg"
 
 export default function UnderConstruction() {
     return (
@@ -23,20 +24,12 @@ export default function UnderConstruction() {
             </div>
             <div className="flex items-center gap-2 pt-2">
                 <a href="mailto:lheintz@insideedit.com">
-                <Image
-                className=""
-                src="/icon-envelope.svg"
-                alt="Mail Icon"
-                width={25}
-                height={25}
-                />
+                    <Envelope className="w-6 h-6" />
                 </a>
 
-                <a 
-                href="https://www.instagram.com/insideeditnyc/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
+                <a href="https://www.instagram.com/insideeditnyc/"
+                   target="_blank"
+                   rel="noopener noreferrer">
                 <Image
                 className=""
                 src="/icon-instagram.svg"
@@ -44,6 +37,7 @@ export default function UnderConstruction() {
                 width={30}
                 height={30}
                 />
+
                 </a>
           </div>
         </div>
