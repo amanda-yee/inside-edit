@@ -4,9 +4,9 @@ import ProjectCard from "./ProjectCard"
 
 export default function Main() {
     return (
-        <div className="flex flex-col lg:flex-row px-6">
+        <div className="flex flex-col lg:flex-row px-4">
             
-            <div className="sticky top-0 py-2 z-50 bg-[var(--background)] block lg:hidden">
+            <div className="sticky top-0 py-2 bg-[var(--background)] block lg:hidden">
                 <NavBarTop />
             </div>
             

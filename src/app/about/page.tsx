@@ -6,7 +6,7 @@ import Envelope from "@/components/icons/Envelope.svg"
 
 export default function AboutPage() {
     return (
-        <div className="flex flex-col lg:flex-row px-6">
+        <div className="flex flex-col lg:flex-row px-4">
             <div className="sticky top-0 py-2 z-50 bg-[var(--background)] block lg:hidden">
                 <NavBarTop />
             </div>

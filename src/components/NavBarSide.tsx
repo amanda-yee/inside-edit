@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function NavBarSide() {
     return (   
-        <nav className="sticky top-0 ml-10 mr-20">
+        <nav className="sticky top-0 pl-8 pr-16">
             <Link href="/">
                 <Image
                 className="py-10"
