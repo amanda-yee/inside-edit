@@ -1,19 +1,24 @@
-import NavBar from "@/components/NavBar";
+import NavBarSide from "@/components/NavBarSide";
+import NavBarTop from "@/components/NavBarTop";
 
 export default function CollaborationsPage() {
     return (
-        <div className="flex pr-6 mr-10">
-            <div>
-                <NavBar />
+        <div className="flex flex-col lg:flex-row px-4">
+            <div className="sticky top-0 py-2 z-50 bg-[var(--background)] block lg:hidden">
+                <NavBarTop />
+            </div>
+            
+            <div className="hidden lg:block">
+                <NavBarSide />
             </div>
 
             <div className="flex-1"> 
-                <h1 className="text-[var(--primary)] font-bold text-6xl pt-10 pb-6">
+                <h1 className="text-[var(--primary)] font-bold pt-10 pb-6">
                     collaborations
                 </h1>
 
-                <h2 className="text-3xl pb-6">
-                    Subheading Subheading Subheading Subheading
+                <h2 className="pb-6">
+                    Subheading Subheading
                 </h2>
 
                 <div className="flex gap-12 font-geist">
