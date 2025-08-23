@@ -7,16 +7,16 @@ export default function Hero() {
     <main className="relative w-screen h-screen">
         <Image
           className="z-0"
-          src="/hero-image.png"
+          src="/hero-image2.jpg"
           alt="Hero Image"
           layout="fill" // fill parent container
           objectFit="cover" // fills the area and crops if needed
           priority // tells next.js to load image asap
         />
 
-        <div className="absolute z-10 flex flex-col ml-10 top-[30%] gap-6 text-[#ffffff]">
+        <div className="absolute z-10 flex flex-col ml-10 top-[30%] gap-6 text-[#000000]">
           <Image
-            src="/logo-white.png"
+            src="/logo-black.png"
             alt="Inside Edit Logo"
             width={250}
             height={50}

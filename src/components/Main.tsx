@@ -17,8 +17,12 @@ export default function Main() {
             {/* flex-1 makes second child grow and fill all remaining horitzontal space */}
             <div className="flex-1"> 
                 <h1 className="text-[var(--primary)] font-bold text-center py-[8%]">
-                    Full service design and styling studio, based in New York.
+                    Creative Interiors, Designed for Living
                 </h1>
+
+                <h3>
+                    Where color meets composition, and function never takes a back seat. We create spaces that feel as good as they look — tailored, spirited, and unmistakably yours.
+                </h3>
 
                 <div className="pb-[5%]">
                     <h2 className="font-bold pb-6">
@@ -27,69 +31,83 @@ export default function Main() {
 
                     <div className="flex flex-col lg:flex-row justify-between">
                         <ProjectCard 
-                        title="New York City"
+                        title="Rhinebeck"
                         description="Some description of the project or maybe no description at all."
-                        imgSrc="/project-image-1.png"
+                        imgSrc="/rhinebeck/main.jpg"
                         pageId="projects/#nyc"
                         />
 
                         <ProjectCard 
-                        title="Montauk"
+                        title="Upper East Side"
                         description="Some description of project or maybe no description at all."
-                        imgSrc="/project-image-2.png"
-                        pageId="projects/#montauk"
+                        imgSrc="/upper-east-side/main.jpg"
+                        pageId="projects/#upstate"
                         />
 
                         <ProjectCard 
-                        title="Upstate New York"
+                        title="Clinton Corners"
                         description="Some description of project or maybe no description at all."
-                        imgSrc="/project-image-3.png"
-                        pageId="projects/#upstate"
+                        imgSrc="/clinton-corners/main.jpg"
+                        pageId="projects/#montauk"
                         />
                     </div>
                 </div>
 
                 <div className="pb-10">
                     <h2 className="font-bold pb-6">
-                        services
+                        what we do
                     </h2>
 
                     <div className="font-geist flex flex-col md:flex-row">
                         <div className="md:w-1/3">
-                            <h3 className="font-bold py-4">
-                                Design
-                            </h3>
+                
                             <ul className="sm:text-lg list-disc list-inside">
-                                <li>service service</li>
-                                <li>service service</li>
-                                <li>service service</li>
-                                <li>service service</li>
+                                <li>Full-Service Interior Design</li>
+                                <li>Furniture & Finish Selection</li>
+                                
                             </ul>
                         </div>
 
                         <div className="md:w-1/3">
-                            <h3 className="font-bold py-4">
-                                Specifications
-                            </h3>
+                
                             <ul className="sm:text-lg list-disc list-inside">
-                                <li>service service</li>
-                                <li>service service</li>
-                                <li>service service</li>
-                                <li>service service</li>
+                               
+                                <li>Space Planning & Layout Optimization</li>
+                                <li>Custom Millwork & Built-ins</li>
                             </ul>
                         </div>
 
                         <div className="md:w-1/3">
-                            <h3 className="font-bold py-4">
-                                Product Management
-                            </h3>
                             <ul className="sm:text-lg list-disc list-inside">
-                                <li>service service</li>
-                                <li>service service</li>
-                                <li>service service</li>
-                                <li>service service</li>
+                                <li>Renovation & Construction Collaboration</li>
+                                <li>Art & Styling</li>
                             </ul>
                         </div>
+
+                    </div>
+                </div>
+
+                <div className="pb-10">
+                    <h2 className="font-bold pb-6">
+                        our approach
+                    </h2>
+
+                    <h3 className="font-bold">
+                        Design That Works (Hard) and Wows
+                    </h3>
+                
+
+                    <div className="font-geist flex flex-col md:flex-row">
+                        {/* <div className="md:w-1/3"> */}
+                        
+                            <ul className="sm:text-lg list-disc list-inside">
+                                <li>Function first: Every square inch earns its keep — but never feels utilitarian</li>
+                                <li>Details that matter: We obsess over seams, scale, and sight lines so you don’t have to</li>
+                                <li>Style with substance: Your home should reflect you — not a trend cycle</li>
+            
+                            </ul>
+                        {/* </div> */}
+
                     </div>
                 </div>
 

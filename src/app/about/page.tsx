@@ -21,25 +21,40 @@ export default function AboutPage() {
                 </h1>
 
                 <h2 className="pb-6">
-                    Subheading Subheading
+                    Subheading
                 </h2>
 
                 <div className="flex flex-col lg:flex-row pb-12 max-w-[100%]">
                     <div className="flex-1 font-geist pr-4 pb-4">
                         <p>
-                            Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
+                            Placeholder
                             <br></br>
                             <br></br>
-                            Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
+                            Placeholder
                         </p>
                     </div>
-                    <div className="relative lg:w-[30%] h-[300px]">
+                    <div className="relative lg:w-[40%] h-[300px]">
                         <Image 
                         src="/project-image-1.png"
                         alt="Inside Edit Logo"
                         fill
                         className="object-contain"
                         />
+                    </div>
+                </div>
+
+                <div>
+                    <h2 className="font-bold pb-6">
+                        client love
+                    </h2>
+
+                    <div className="flex gap-12 font-geist">
+                        <div className="flex-1">
+                            <p>
+                                “They turned our ‘forever home’ into a place that actually feels like us — comfortable, intentional, and full of surprises we never would’ve thought of.”
+                                <br></br>
+                            </p>
+                        </div>
                     </div>
                 </div>
 
