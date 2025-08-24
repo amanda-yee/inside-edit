@@ -16,16 +16,16 @@ export default function Main() {
             
             {/* flex-1 makes second child grow and fill all remaining horitzontal space */}
             <div className="flex-1"> 
-                <h1 className="text-[var(--primary)] font-bold text-center py-[8%]">
+                <h1 className="text-[var(--primary)] font-bold text-center py-[5%]">
                     Creative Interiors, Designed for Living
                 </h1>
 
-                <h3>
+                <h3 className="text-center pb-[5%] max-w-[1000px] mx-auto">
                     Where color meets composition, and function never takes a back seat. We create spaces that feel as good as they look — tailored, spirited, and unmistakably yours.
                 </h3>
 
                 <div className="pb-[5%]">
-                    <h2 className="font-bold pb-6">
+                    <h2 className="font-bold pb-[2%]">
                         selected projects
                     </h2>
 
@@ -53,8 +53,8 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div className="pb-10">
-                    <h2 className="font-bold pb-6">
+                <div className="pb-[5%]">
+                    <h2 className="font-bold pb-[2%]">
                         what we do
                     </h2>
 
@@ -87,27 +87,20 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div className="pb-10">
-                    <h2 className="font-bold pb-6">
+                <div className="pb-[5%]">
+                    <h2 className="font-bold pb-[2%]">
                         our approach
                     </h2>
 
-                    <h3 className="font-bold">
-                        Design That Works (Hard) and Wows
-                    </h3>
-                
-
-                    <div className="font-geist flex flex-col md:flex-row">
-                        {/* <div className="md:w-1/3"> */}
-                        
-                            <ul className="sm:text-lg list-disc list-inside">
-                                <li>Function first: Every square inch earns its keep — but never feels utilitarian</li>
-                                <li>Details that matter: We obsess over seams, scale, and sight lines so you don’t have to</li>
-                                <li>Style with substance: Your home should reflect you — not a trend cycle</li>
-            
-                            </ul>
-                        {/* </div> */}
-
+                    <div className="font-geist">
+                        <p className="sm:text-lg">
+                            Design That Works (Hard) and Wows
+                        </p>
+                        <ul className="sm:text-lg list-disc list-inside">
+                            <li>Function first: Every square inch earns its keep — but never feels utilitarian</li>
+                            <li>Details that matter: We obsess over seams, scale, and sight lines so you don’t have to</li>
+                            <li>Style with substance: Your home should reflect you — not a trend cycle</li>
+                        </ul>
                     </div>
                 </div>
 

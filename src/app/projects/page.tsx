@@ -1,6 +1,6 @@
-import Image from "next/image"
 import NavBarSide from "@/components/NavBarSide";
 import NavBarTop from "@/components/NavBarTop";
+import ProjectCardMini from "@/components/ProjectCardMini";
 
 export default function ProjectsPage() {
     return (
@@ -18,66 +18,57 @@ export default function ProjectsPage() {
                     projects
                 </h1>
 
-                <div id="nyc" className="pb-10">
-                    <h2 className="font-bold py-6">
-                        New York City
-                    </h2>
-                    <div className="flex gap-12">
-                        <div className="font-geist lg:w-[80%] pb-4">
-                            <p>
-                                Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
-                            </p>
-                        </div>
-                    </div>
-                    <Image
-                    className=""
-                    src="/hero-image.png"
-                    alt="Hero Image"
-                    width={500}
-                    height={0}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                    <ProjectCardMini 
+                        title="Rhinebeck"
+                        imgSrc="/rhinebeck/main.jpg"
+                        projectId="rhinebeck"
                     />
-                </div>
 
-                <div id="montauk" className="pb-10">
-                    <h2 className="font-bold py-6">
-                        Montauk
-                    </h2>
-                    <div className="flex gap-12">
-                        <div className="font-geist lg:w-[80%] pb-4">
-                            <p>
-                                Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
-                            </p>
-                        </div>
-                    </div>
-                    <Image
-                    className=""
-                    src="/hero-image.png"
-                    alt="Hero Image"
-                    width={500}
-                    height={0}
+                    <ProjectCardMini 
+                        title="Clinton Corners"
+                        imgSrc="/clinton-corners/main.jpg"
+                        projectId="clinton-corners"
                     />
-                </div>
 
-                <div id="upstate" className="pb-10">
-                    <h2 className="font-bold py-6">
-                        Upstate New York
-                    </h2>
-                    <div className="flex gap-12">
-                        <div className="font-geist lg:w-[80%] pb-4">
-                            <p>
-                                Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
-                            </p>
-                        </div>
-                    </div>
-                    <Image
-                    className=""
-                    src="/hero-image.png"
-                    alt="Hero Image"
-                    width={500}
-                    height={0}
+                    <ProjectCardMini 
+                        title="5th Avenue"
+                        imgSrc="/hero-image.png"
+                        projectId="5th-avenue"
                     />
-                </div>
 
+                    <ProjectCardMini 
+                        title="West Village"
+                        imgSrc="/hero-image.png"
+                        projectId="west-village"
+                    />
+
+                    <ProjectCardMini 
+                        title="Upper East Side"
+                        imgSrc="/hero-image.png"
+                        projectId="ues"
+                    />
+
+                    <ProjectCardMini 
+                        title="Vermont"
+                        imgSrc="/hero-image.png"
+                        projectId="vermont"
+                    />
+
+                    <ProjectCardMini 
+                        title="Upper West Side Townhouse"
+                        imgSrc="/hero-image.png"
+                        projectId="uws-townhouse"
+                    />
+
+                    <ProjectCardMini 
+                        title="Upper West Side Apartment"
+                        imgSrc="/hero-image.png"
+                        projectId="uws-apartment"
+                    />
+
+                    
+                </div>
             </div>
         </div>
     );
