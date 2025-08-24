@@ -51,8 +51,7 @@ export default function AboutPage() {
                     <div className="flex gap-12 font-geist">
                         <div className="flex-1">
                             <p>
-                                “They turned our ‘forever home’ into a place that actually feels like us — comfortable, intentional, and full of surprises we never would’ve thought of.”
-                                <br></br>
+                                &quot;They turned our &apos;forever home&apos; into a place that actually feels like us - comfortable, intentional, and full of surprises we never would&apos;ve thought of.&quot;
                             </p>
                         </div>
                     </div>
