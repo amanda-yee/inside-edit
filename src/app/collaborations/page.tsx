@@ -22,87 +22,109 @@ export default function CollaborationsPage() {
                     Your Space, Thoughtfully Reimagined
                 </h2>
 
-                <div className="gap-12 font-geist">
+                <div className="gap-12 font-geist pb-6">
                     <div>
                         <p>
-                            We don’t do cookie-cutter. We do custom. Every home has its own rhythm — we tune in, layer in texture, add soul, and make it sing. Whether it’s a sun-drenched loft, a brownstone with bones, or a weekend escape in the woods, our designs are built on real-life needs and unexpected moments of joy.
+                            We don’t do cookie-cutter. We do custom. Every home has its own rhythm - we tune in, layer in texture, add soul, and make it sing. Whether it’s a sun-drenched loft, a brownstone with bones, or a weekend escape in the woods, our designs are built on real-life needs and unexpected moments of joy.
                             <br></br>
                             <br></br>
-                            With a deep love for craftsmanship, color, and clever use of space, we turn the everyday into the extraordinary. We’ve built a great network of partners—proof of our collaborative spirit and our ‘let’s make it happen’ attitude.
+                            With a deep love for craftsmanship, color, and clever use of space, we turn the everyday into the extraordinary. We’ve built a great network of partners - proof of our collaborative spirit and our ‘let’s make it happen’ attitude.
                         </p>
                     </div>
-                    <div>
+                </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-5 items-center gap-4">
+                    
+                    <a href="https://www.arteriorshome.com/" target="_blank" rel="noopener noreferrer">
                         <Image 
-                        src="/collab-logos/arteriors.jpg"
+                        src="/collab-logos/arteriors.png"
                         alt="Arteriors Logo"
                         width={100}
                         height={100}
                         />
+                    </a>
 
-                        <Image 
-                        src="/collab-logos/blu-dot.jpeg"
-                        alt="Blu Dot Logo"
-                        width={100}
-                        height={100}
-                        />
+                    <a href="https://www.bludot.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/blu-dot.png"
+                    alt="Blu Dot Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
 
-                        <Image 
-                        src="/collab-logos/design-within-reach.png"
-                        alt="Design Within Reach Logo"
-                        width={100}
-                        height={100}
-                        />
+                    <a href="https://www.dwr.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/design-within-reach.png"
+                    alt="Design Within Reach Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+                    
+                    <a href="https://www.hollyhunt.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/holly-hunt.png"
+                    alt="Holly Hunt Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
 
-                        <Image 
-                        src="/collab-logos/holly-hunt.png"
-                        alt="Holly Hunt Logo"
-                        width={100}
-                        height={100}
-                        />
+                    <a href="https://www.kravet.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/kravet.png"
+                    alt="kravet Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+                    
+                    <a href="https://www.leftbankart.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/leftbank-art.png"
+                    alt="LeftBank Art Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
 
-                        <Image 
-                        src="/collab-logos/kravet.png"
-                        alt="kravet Logo"
-                        width={100}
-                        height={100}
-                        />
+                    <a href="https://www.luluandgeorgia.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/lulu-and-georgia.png"
+                    alt="Lulu and Georgia Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
 
-                        <Image 
-                        src="/collab-logos/leftbank-art.jpeg"
-                        alt="LeftBank Art Logo"
-                        width={100}
-                        height={100}
-                        />
+                    <a href="https://www.maidenhome.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/maiden-home.jpg"
+                    alt="Maiden Home Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
 
-                        <Image 
-                        src="/collab-logos/lulu-and-georgia.png"
-                        alt="Lulu and Georgia Logo"
-                        width={100}
-                        height={100}
-                        />
+                    <a href="https://www.madegoods.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/madegoods.png"
+                    alt="MadeGoods Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
 
-                        <Image 
-                        src="/collab-logos/madegoods.png"
-                        alt="MadeGoods Logo"
-                        width={100}
-                        height={100}
-                        />
-
-                        <Image 
-                        src="/collab-logos/maiden-home.png"
-                        alt="Maiden Home Logo"
-                        width={100}
-                        height={100}
-                        />
-
-                        <Image 
-                        src="/collab-logos/verellen.png"
-                        alt="Verellen Logo"
-                        width={100}
-                        height={100}
-                        />
-                    </div>
-                </div>
+                    <a href="https://verellen.biz/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/verellen.png"
+                    alt="Verellen Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+                 </div>
 
             </div>
         </div>
