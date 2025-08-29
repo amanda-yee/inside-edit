@@ -15,22 +15,27 @@ export default function AboutPage() {
                 <NavBarSide />
             </div>
 
-            <div className="flex-1"> 
+            <div className="flex-1 pb-6"> 
                 <h1 className="text-[var(--primary)] font-bold pt-10 pb-6">
                     about us
                 </h1>
 
                 <h2 className="pb-6">
-                    Subheading
+                    <b>Laura Heintz</b>
+                    <br />
+                    Owner and Principal Designer
                 </h2>
 
                 <div className="flex flex-col lg:flex-row pb-12 max-w-[100%]">
-                    <div className="flex-1 font-geist pr-4 pb-4">
+                    <div className="flex-1 font-geist pr-4 pb-6">
                         <p>
-                            Placeholder
-                            <br></br>
-                            <br></br>
-                            Placeholder
+                            Laura is a fun, dynamic interior designer bringing warmth and energy to homes in New York City and the Hudson Valley. With a philosophy rooted in warm minimalism, she designs spaces that feel inviting, personal, and never cookie-cutter. She listens closely to her clients, translating their stories and lifestyle into interiors that feel both effortless and uniquely their own.
+                            <br /><br />
+                            Growing up in a family of creative people, she was surrounded by artistry, invention, and the freedom to explore ideas, an upbringing that continues to fuel her adventurous approach to design. Her path began with a background in chemistry, where she developed a sharp eye for detail and balance, skills she now brings into every project. 
+                            <br /><br />
+                            Before launching Inside Edit, she honed her craft under a renowned NYC interior designer, gaining exposure to high-end projects and an appreciation for blending sophistication with everyday livability.
+                            <br /><br />
+                            Curious and always exploring, she travels widely and draws inspiration from design markets, architecture, and artisans wherever she goes. She thrives on new challenges, whether it’s reimagining a city apartment, restoring a Hudson Valley farmhouse, or sourcing unexpected materials and objects that add depth and character. Every project is a chance to create not just a beautiful space, but a true reflection of the people who live there.
                         </p>
                     </div>
                     <div className="relative lg:w-[40%] h-[300px]">
@@ -43,7 +48,7 @@ export default function AboutPage() {
                     </div>
                 </div>
 
-                <div>
+                <div className="pb-6">
                     <h2 className="font-bold pb-6">
                         client love
                     </h2>
@@ -57,7 +62,7 @@ export default function AboutPage() {
                     </div>
                 </div>
 
-                <div>
+                <div className="pb-6">
                     <h2 className="font-bold pb-6">
                         get in touch
                     </h2>

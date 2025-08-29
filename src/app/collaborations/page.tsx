@@ -26,8 +26,8 @@ export default function CollaborationsPage() {
                     <div>
                         <p>
                             We don’t do cookie-cutter. We do custom. Every home has its own rhythm - we tune in, layer in texture, add soul, and make it sing. Whether it’s a sun-drenched loft, a brownstone with bones, or a weekend escape in the woods, our designs are built on real-life needs and unexpected moments of joy.
-                            <br></br>
-                            <br></br>
+                            <br />
+                            <br />
                             With a deep love for craftsmanship, color, and clever use of space, we turn the everyday into the extraordinary. We’ve built a great network of partners - proof of our collaborative spirit and our ‘let’s make it happen’ attitude.
                         </p>
                     </div>
