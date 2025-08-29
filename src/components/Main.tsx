@@ -21,7 +21,7 @@ export default function Main() {
                 </h1>
 
                 <h3 className="text-center pb-[5%] max-w-[1000px] mx-auto">
-                    Where color meets composition, and function never takes a back seat. We create spaces that feel as good as they look — tailored, spirited, and unmistakably yours.
+                    Where color meets composition, and function never takes a back seat. We create spaces that feel as good as they look - tailored, spirited, and unmistakably yours.
                 </h3>
 
                 <div className="pb-[5%]">
@@ -97,9 +97,9 @@ export default function Main() {
                             Design That Works (Hard) and Wows
                         </p>
                         <ul className="sm:text-lg list-disc list-inside">
-                            <li>Function first: Every square inch earns its keep — but never feels utilitarian</li>
+                            <li>Function first: Every square inch earns its keep - but never feels utilitarian</li>
                             <li>Details that matter: We obsess over seams, scale, and sight lines so you don’t have to</li>
-                            <li>Style with substance: Your home should reflect you — not a trend cycle</li>
+                            <li>Style with substance: Your home should reflect you - not a trend cycle</li>
                         </ul>
                     </div>
                 </div>
