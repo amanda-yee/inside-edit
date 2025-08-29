@@ -34,21 +34,21 @@ export default function Main() {
                         title="Rhinebeck"
                         description="Some description of the project or maybe no description at all."
                         imgSrc="/rhinebeck/main.jpg"
-                        pageId="projects/#nyc"
+                        pageId="projects/rhinebeck"
                         />
 
                         <ProjectCard 
                         title="Upper East Side"
                         description="Some description of project or maybe no description at all."
-                        imgSrc="/upper-east-side/main.jpg"
-                        pageId="projects/#upstate"
+                        imgSrc="/ues/main.jpg"
+                        pageId="projects/ues"
                         />
 
                         <ProjectCard 
                         title="Clinton Corners"
                         description="Some description of project or maybe no description at all."
                         imgSrc="/clinton-corners/main.jpg"
-                        pageId="projects/#montauk"
+                        pageId="projects/clinton-corners"
                         />
                     </div>
                 </div>
