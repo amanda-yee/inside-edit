@@ -15,7 +15,7 @@ export const projects = [
   {
     slug: "clinton-corners",
     title: "Clinton Corners",
-    description: "This is the description for project two.",
+    description: "This is the description placeholder.",
   },
   {
     slug: "5th-avenue",
