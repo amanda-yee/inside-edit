@@ -41,7 +41,7 @@ export default async function IndividualProjectPage({ params }) {
         </p>
 
         <div className="mt-8">
-          <ImageCarousel />
+          <ImageCarousel mediaArray={project.media}/>
         </div>
       </div>
     </div>
