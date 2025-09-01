@@ -6,15 +6,14 @@ import Image from "next/image";
 
 export default function ImageCarousel(props) {
 
+  const [currentIndex, setCurrentIndex] = useState(0);
+
   const media = props.mediaArray || []; // fallback to empty array if no media prop is passed
 
   // Will not render if no media
   if (media.length === 0) {
     return null;
   }
-
-
-  const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % media.length);
