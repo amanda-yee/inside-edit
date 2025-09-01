@@ -45,6 +45,26 @@ export default async function IndividualProjectPage({ params }) {
             <ImageCarousel mediaArray={project.media}/>
           </div>
         </div>
+
+        {/* Only render below if subheading2 exists */}
+        {project.subheading2 && (
+          <>
+            <h2 className="pt-16 pb-6">
+              {project.subheading2}
+            </h2>
+
+            <div className="lg:max-w-[90%]">
+              <p style={{ whiteSpace: "pre-line" }} className="font-geist">
+                {project.description2}
+              </p>
+
+              <div className="mt-8">
+                <ImageCarousel mediaArray={project.media2}/>
+              </div>
+            </div>
+          </>
+        )}
+
       </div>
     </div>
   );

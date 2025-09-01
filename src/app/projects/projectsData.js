@@ -19,7 +19,14 @@ export const projectsData = [
       '/rhinebeck/photo6.jpg',
       '/rhinebeck/photo7.jpg',
       '/rhinebeck/main.jpg'
-    ]
+    ],
+    subheading2: "Upstate barn",
+    description2: "What was once a hardworking 19th-century barn is now a breathtaking multipurpose space - equal parts heritage and high design. \n\n \
+    We began by honoring the barn’s original structure, preserving its soaring timber trusses and hand-hewn beams. These elements became the backbone of the design, anchoring the space with a sense of history and quiet strength. Rather than compete with the past, we worked with it - amplifying the volume and character of the building while adding modern layers of comfort and functionality. \n\n \
+    A sleek, light-filled apartment now lives on the upper level, complete with a full kitchen, open-concept living area, and panoramic views thanks to expansive new glazing. Modern steel-framed windows and oversized doors were added to flood the interiors with natural light and to blur the lines between indoors and out - making the most of the barn’s original siting and stunning surroundings\n\n \
+    Downstairs, a custom bar and entertaining space invite gatherings year-round, with materials that echo the barn’s past but speak to today’s lifestyle. We preserved the original horse stables - widely considered one of the best surviving examples of 1800s equestrian architecture in the region - keeping their craftsmanship intact and letting their details shine.\n\n \
+    This is more than a renovation. It’s a respectful reinvention: a living space that celebrates history, elevates utility, and invites life to unfold inside walls that have already stood for centuries.",
+    media2: []
   },
   {
     slug: "clinton-corners",
