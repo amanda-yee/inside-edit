@@ -1,18 +1,19 @@
-import { projects } from '../projectsData';
+import { projectsData } from '../projectsData';
 import NavBarSide from "@/components/NavBarSide";
 import NavBarTop from "@/components/NavBarTop";
 
-// import ImageCarousel from "@/components/ImageCarousel";
+import ImageCarousel from "@/components/ImageCarousel";
 
+// this will pre-generate all the paths at build time, e.g. /projects/rhinebeck, /projects/clinton-corners
 export async function generateStaticParams() {
-  return projects.map((project) => ({
-    slug: project.slug,
+  return projectsData.map((proj) => ({
+    slug: proj.slug,
   }));
 }
 
-export default function IndividualProjectPage({ params }) {
-  const { slug } = params;
-  const project = projects.find((p) => p.slug === slug);
+export default async function IndividualProjectPage({ params }) {
+  const { slug } = await params; // get value from URL
+  const project = projectsData.find((p) => p.slug === slug);
 
   if (!project) return <p>Project not found</p>;
 
@@ -28,18 +29,22 @@ export default function IndividualProjectPage({ params }) {
 
       <div className="flex-1"> 
         <h1 className="text-[var(--primary)] font-bold pt-10 pb-6">
-            {project.title}
+          {project.title}
         </h1>
 
         <h2 className="pb-6">
-            {project.subheading}
+          {project.subheading}
         </h2>
 
-        <p style={{ whiteSpace: "pre-line" }} className="font-geist">
-          {project.description}
-        </p>
+        <div className="lg:max-w-[90%]">
+          <p style={{ whiteSpace: "pre-line" }} className="font-geist">
+            {project.description}
+          </p>
 
-        {/* <ImageCarousel /> */}
+          <div className="mt-8">
+            <ImageCarousel mediaArray={project.media}/>
+          </div>
+        </div>
       </div>
     </div>
   );

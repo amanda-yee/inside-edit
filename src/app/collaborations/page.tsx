@@ -22,7 +22,7 @@ export default function CollaborationsPage() {
                     Your Space, Thoughtfully Reimagined
                 </h2>
 
-                <div className="gap-12 font-geist pb-6">
+                <div className="gap-12 font-geist pb-6 lg:max-w-[90%]">
                     <div>
                         <p>
                             We don’t do cookie-cutter. We do custom. Every home has its own rhythm - we tune in, layer in texture, add soul, and make it sing. Whether it’s a sun-drenched loft, a brownstone with bones, or a weekend escape in the woods, our designs are built on real-life needs and unexpected moments of joy.

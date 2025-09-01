@@ -20,6 +20,7 @@ export default function Hero() {
             alt="Inside Edit Logo"
             width={250}
             height={50}
+            priority
           />
           <NavLinks />
         </div>

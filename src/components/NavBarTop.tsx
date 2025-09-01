@@ -12,7 +12,7 @@ export default function NavBarTop() {
                 src="/logo-black.png"
                 alt="Inside Edit Logo"
                 width={125}
-                height={0}
+                height={50}
                 />
             </Link>
             

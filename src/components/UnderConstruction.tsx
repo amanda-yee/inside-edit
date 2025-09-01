@@ -3,7 +3,7 @@ import Envelope from "./icons/Envelope.svg"
 
 export default function UnderConstruction() {
     return (
-        // <p>hi</p>
+
         <div className="flex flex-col justify-center items-center pt-10">
             <Image
                 className="pt-10"

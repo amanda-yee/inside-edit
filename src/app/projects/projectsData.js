@@ -1,6 +1,6 @@
 // slug and public-holder name should match
 
-export const projects = [
+export const projectsData = [
   {
     slug: "rhinebeck",
     title: "Rhinebeck",
@@ -10,12 +10,29 @@ export const projects = [
     Every room was approached with a livable elegance in mind. Think: refined details, but nothing too precious. Durable fabrics, thoughtful storage, and family-friendly flow make this home as functional as it is beautiful.\n\n \
     We preserved and reimagined many of the home’s original architectural details - from the stately stair banister to the intricate moldings - giving them new life in a space that now feels open, comfortable, and deeply personal.\n\n \
     It’s a home with history - and now, a fresh chapter of warmth, light, and livability.",
-    mainImage: "main.jpg"
+    media: [
+      '/rhinebeck/photo1.jpg',
+      '/rhinebeck/photo2.jpg',
+      '/rhinebeck/photo3.jpg',
+      '/rhinebeck/photo4.jpg',
+      '/rhinebeck/photo5.jpg',
+      '/rhinebeck/photo6.jpg',
+      '/rhinebeck/photo7.jpg',
+      '/rhinebeck/main.jpg'
+    ]
   },
   {
     slug: "clinton-corners",
     title: "Clinton Corners",
     description: "This is the description placeholder.",
+    media: [
+      '/clinton-corners/photo1.jpg',
+      '/clinton-corners/photo2.jpg',
+      '/clinton-corners/photo3.jpg',
+      '/clinton-corners/photo4.jpg',
+      '/clinton-corners/photo5.jpg',
+      '/clinton-corners/main.jpg'
+    ]
   },
   {
     slug: "5th-avenue",

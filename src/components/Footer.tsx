@@ -15,7 +15,7 @@ export default function Footer() {
                 src="/logo-black.png"
                 alt="Inside Edit Logo"
                 width={100}
-                height={0}
+                height={50}
                 className="w-full h-auto object-contain"
                 />
               </Link>

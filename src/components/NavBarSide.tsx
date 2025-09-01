@@ -12,7 +12,7 @@ export default function NavBarSide() {
                 src="/logo-black-rotated.png"
                 alt="Inside Edit Logo"
                 width={25}
-                height={0}
+                height={100}
                 />
             </Link>
             
