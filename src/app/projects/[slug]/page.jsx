@@ -29,19 +29,21 @@ export default async function IndividualProjectPage({ params }) {
 
       <div className="flex-1"> 
         <h1 className="text-[var(--primary)] font-bold pt-10 pb-6">
-            {project.title}
+          {project.title}
         </h1>
 
         <h2 className="pb-6">
-            {project.subheading}
+          {project.subheading}
         </h2>
 
-        <p style={{ whiteSpace: "pre-line" }} className="font-geist">
-          {project.description}
-        </p>
+        <div className="lg:max-w-[90%]">
+          <p style={{ whiteSpace: "pre-line" }} className="font-geist">
+            {project.description}
+          </p>
 
-        <div className="mt-8">
-          <ImageCarousel mediaArray={project.media}/>
+          <div className="mt-8">
+            <ImageCarousel mediaArray={project.media}/>
+          </div>
         </div>
       </div>
     </div>

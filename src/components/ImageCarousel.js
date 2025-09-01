@@ -35,9 +35,9 @@ export default function ImageCarousel(props) {
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {media.map((src, index) => (
-            <div  
+            <div    
               key={index} 
-              className="w-full flex-shrink-0 relative aspect-[4/3]" //image is 4:3 ratio
+              className="w-full flex-shrink-0 relative aspect-square" //can change to aspect-3/4 for 3:4 ratio
             >
               <Image
                 src={src}
