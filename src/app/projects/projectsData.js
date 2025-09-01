@@ -1,6 +1,6 @@
 // slug and public-holder name should match
 
-export const projects = [
+export const projectsData = [
   {
     slug: "rhinebeck",
     title: "Rhinebeck",
