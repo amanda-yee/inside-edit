@@ -24,6 +24,9 @@ export default function ProjectCardMini( {title, imgSrc, projectId}: ProjectCard
                 src={imgSrc}
                 alt="Project Image"
                 fill
+                sizes="(max-width: 768px) 100vw,
+                       (max-width: 1200px) 50vw,
+                       33vw"
                 />
                 </Link>
             </div>
