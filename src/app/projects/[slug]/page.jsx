@@ -10,8 +10,8 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function IndividualProjectPage({ params }) {
-  const { slug } = params;
+export default async function IndividualProjectPage({ params }) {
+  const { slug } = await params;
   const project = projects.find((p) => p.slug === slug);
 
   if (!project) return <p>Project not found</p>;
