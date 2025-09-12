@@ -44,10 +44,19 @@ export default function CollaborationsPage() {
                         />
                     </a>
 
-                    <a href="https://www.bludot.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://cushmandesign.com/" target="_blank" rel="noopener noreferrer">
+                        <Image 
+                        src="/collab-logos/cushman-design-group.png"
+                        alt="Cushman Design Group Logo"
+                        width={100}
+                        height={100}
+                        />
+                    </a>
+
+                    <a href="https://dedar.com/" target="_blank" rel="noopener noreferrer">
                     <Image 
-                    src="/collab-logos/blu-dot.png"
-                    alt="Blu Dot Logo"
+                    src="/collab-logos/dedar.png"
+                    alt="Dedar Logo"
                     width={100}
                     height={100}
                     />
@@ -57,6 +66,15 @@ export default function CollaborationsPage() {
                     <Image 
                     src="/collab-logos/design-within-reach.png"
                     alt="Design Within Reach Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+
+                    <a href="https://elitis.fr/en" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/elitis.png"
+                    alt="Elitis Logo"
                     width={100}
                     height={100}
                     />
@@ -71,6 +89,15 @@ export default function CollaborationsPage() {
                     />
                     </a>
 
+                    <a href="https://hubbardtonforge.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/hubbardton-forge.jpg"
+                    alt="Hubbardton Forge Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+
                     <a href="https://www.kravet.com/" target="_blank" rel="noopener noreferrer">
                     <Image 
                     src="/collab-logos/kravet.png"
@@ -80,19 +107,10 @@ export default function CollaborationsPage() {
                     />
                     </a>
                     
-                    <a href="https://www.leftbankart.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.lutron.com/us/en" target="_blank" rel="noopener noreferrer">
                     <Image 
-                    src="/collab-logos/leftbank-art.png"
-                    alt="LeftBank Art Logo"
-                    width={100}
-                    height={100}
-                    />
-                    </a>
-
-                    <a href="https://www.luluandgeorgia.com/" target="_blank" rel="noopener noreferrer">
-                    <Image 
-                    src="/collab-logos/lulu-and-georgia.png"
-                    alt="Lulu and Georgia Logo"
+                    src="/collab-logos/lutron.png"
+                    alt="Lutron Logo"
                     width={100}
                     height={100}
                     />
@@ -116,6 +134,53 @@ export default function CollaborationsPage() {
                     />
                     </a>
 
+                    {/* Placeholder - MaryAnn Thompson Architects */}
+
+                    <a href="http://www.norwoodnyc.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/norwood.png"
+                    alt="Norwood Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+
+                    <a href="https://www.palecek.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/palecek.png"
+                    alt="Palecek Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+
+                    <a href="https://www.pierrefrey.com/en/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/pierre-frey.png"
+                    alt="Pierre Frey Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+
+                    <a href="https://www.soane.co.uk/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/soane.png"
+                    alt="Soane Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+
+                    <a href="https://tf.design/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/tina-frey.jpg"
+                    alt="Tina Frey Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+
                     <a href="https://verellen.biz/" target="_blank" rel="noopener noreferrer">
                     <Image 
                     src="/collab-logos/verellen.png"
@@ -124,6 +189,25 @@ export default function CollaborationsPage() {
                     height={100}
                     />
                     </a>
+
+                    <a href="https://www.visualcomfort.com/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/visual-comfort.png"
+                    alt="Visual Comfort & Co Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+
+                    <a href="https://www.4plus.design/" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/collab-logos/4plus-design.png"
+                    alt="4Plus Design Logo"
+                    width={100}
+                    height={100}
+                    />
+                    </a>
+
                  </div>
 
             </div>
