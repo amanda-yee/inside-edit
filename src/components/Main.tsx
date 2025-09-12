@@ -31,10 +31,10 @@ export default function Main() {
 
                     <div className="flex flex-col lg:flex-row justify-between">
                         <ProjectCard 
-                        title="Rhinebeck"
+                        title="Hudson Valley"
                         description="Some description of the project or maybe no description at all."
-                        imgSrc="/rhinebeck/main.jpg"
-                        pageId="projects/rhinebeck"
+                        imgSrc="/hudson-valley/photo1.jpg"
+                        pageId="projects/hudson-valley"
                         />
 
                         <ProjectCard 
@@ -45,10 +45,10 @@ export default function Main() {
                         />
 
                         <ProjectCard 
-                        title="Clinton Corners"
+                        title="Upstate New York"
                         description="Some description of project or maybe no description at all."
-                        imgSrc="/clinton-corners/main.jpg"
-                        pageId="projects/clinton-corners"
+                        imgSrc="/upstate-new-york/photo1.jpg"
+                        pageId="projects/upstate-new-york"
                         />
                     </div>
                 </div>

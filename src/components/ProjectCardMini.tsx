@@ -11,8 +11,8 @@ type ProjectCardMiniProps = {
 
 export default function ProjectCardMini( {title, imgSrc, projectId}: ProjectCardMiniProps ) {
     return (
-
-        <div className="pb-10 px-2">
+        // justify-end makes card sit flush at bottom of the grid row (accounts for long titles)       
+        <div className="flex flex-col justify-end pb-10 px-2">
             <h2 className="font-bold text-center">
                 {title}
             </h2>
