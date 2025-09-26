@@ -39,12 +39,12 @@ export default function AboutPage() {
                         </p>
                     </div>
                     <div className="relative lg:w-[40%] h-[300px]">
-                        <Image 
+                        {/* <Image 
                         src="/project-image-1.png"
-                        alt="Inside Edit Logo"
+                        alt="Headshot of Laura Heintz"
                         fill
                         className="object-contain"
-                        />
+                        /> */}
                     </div>
                 </div>
 
