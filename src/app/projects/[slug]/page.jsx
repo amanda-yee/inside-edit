@@ -1,8 +1,9 @@
 import { projectsData } from '../projectsData';
 import NavBarSide from "@/components/NavBarSide";
 import NavBarTop from "@/components/NavBarTop";
+import Image from 'next/image';
 
-import ImageCarousel from "@/components/ImageCarousel";
+// import ImageCarousel from "@/components/ImageCarousel";
 
 // this will pre-generate all the paths at build time, e.g. /projects/hudson-valley, /projects/upstate-new-york
 export async function generateStaticParams() {
@@ -39,18 +40,33 @@ export default async function IndividualProjectPage({ params }) {
         )}
 
         <div className="lg:max-w-[90%]">
-          <p style={{ whiteSpace: "pre-line" }} className="font-geist">
-            {project.description}
-          </p>
+          <div className="pb-8">
+            <p style={{ whiteSpace: "pre-line" }} className="font-geist">
+              {project.description}
+            </p>
+          </div>
 
-          <div className="grid content-end grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid content-end grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             
-            {/* Put in top 6 media images here as grid */}
+            {project.media.map((imageSrc, index) => (
+              <div key={index} className="aspect-square relative">
+                  <Image
+                  className="object-cover" //crops instead of stretching
+                  src={imageSrc} 
+                  alt="Project Image"
+                  fill
+                  sizes="(max-width: 768px) 100vw,
+                          (max-width: 1200px) 50vw,
+                          33vw"
+                  loading="lazy" 
+                  />
+              </div>
+            ))}
           </div>  
 
-          <div className="mt-8">
+          {/* <div className="mt-8">
             <ImageCarousel mediaArray={project.media}/>
-          </div>
+          </div> */}
         </div>
 
         {/* Only render below if subheading2 exists */}

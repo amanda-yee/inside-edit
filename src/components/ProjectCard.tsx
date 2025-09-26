@@ -10,7 +10,13 @@ type ProjectCardProps = {
 
 export default function ProjectCard( {title, imgSrc, pageId}: ProjectCardProps ) {
     return (
-        <div className="font-geist flex pb-4 lg:flex-col lg:w-1/3 ">
+        <div className="font-geist pb-4">
+             <div>
+                <h3 className="font-bold pb-4">
+                    {title}
+                </h3>
+            </div>
+
             <div className="overflow-hidden pr-4">
                 <Link href={pageId}>
                     <Image 
@@ -21,12 +27,6 @@ export default function ProjectCard( {title, imgSrc, pageId}: ProjectCardProps )
                         height={150}
                     />
                 </Link>
-            </div>
-
-            <div>
-                <h3 className="font-bold py-4">
-                    {title}
-                </h3>
             </div>
         </div>
     )
