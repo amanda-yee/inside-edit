@@ -4,7 +4,7 @@ import NavBarTop from "@/components/NavBarTop";
 
 import ImageCarousel from "@/components/ImageCarousel";
 
-// this will pre-generate all the paths at build time, e.g. /projects/rhinebeck, /projects/clinton-corners
+// this will pre-generate all the paths at build time, e.g. /projects/hudson-valley, /projects/upstate-new-york
 export async function generateStaticParams() {
   return projectsData.map((proj) => ({
     slug: proj.slug,
@@ -47,7 +47,7 @@ export default async function IndividualProjectPage({ params }) {
         </div>
 
         {/* Only render below if subheading2 exists */}
-        {project.subheading2 && (
+        {/* {project.subheading2 && (
           <>
             <h2 className="pt-16 pb-6">
               {project.subheading2}
@@ -63,7 +63,7 @@ export default async function IndividualProjectPage({ params }) {
               </div>
             </div>
           </>
-        )}
+        )} */}
 
       </div>
     </div>

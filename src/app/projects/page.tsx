@@ -18,28 +18,34 @@ export default function ProjectsPage() {
                     projects
                 </h1>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid content-end grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                     <ProjectCardMini 
-                        title="Rhinebeck"
-                        imgSrc="/rhinebeck/main.jpg"
-                        projectId="rhinebeck"
+                        title="Hudson Valley"
+                        imgSrc="/hudson-valley/photo1.jpg"
+                        projectId="hudson-valley"
                     />
 
                     <ProjectCardMini 
-                        title="Clinton Corners"
-                        imgSrc="/clinton-corners/main.jpg"
-                        projectId="clinton-corners"
+                        title="Upstate Barn"
+                        imgSrc="/upstate-barn/photo1.jpg"
+                        projectId="upstate-barn"
+                    />
+
+                    <ProjectCardMini 
+                        title="Upstate NY"
+                        imgSrc="/upstate-new-york/photo1.jpg"
+                        projectId="upstate-new-york"
                     />
 
                     <ProjectCardMini 
                         title="5th Avenue"
-                        imgSrc="/hero-image.png"
+                        imgSrc="/5th-avenue/photo1.jpg"
                         projectId="5th-avenue"
                     />
 
                     <ProjectCardMini 
                         title="West Village"
-                        imgSrc="/hero-image.png"
+                        imgSrc="/west-village/photo1.jpg"
                         projectId="west-village"
                     />
 
@@ -49,13 +55,7 @@ export default function ProjectsPage() {
                         projectId="ues"
                     />
 
-                    <ProjectCardMini 
-                        title="Vermont"
-                        imgSrc="/hero-image.png"
-                        projectId="vermont"
-                    />
-
-                    <ProjectCardMini 
+                    {/* <ProjectCardMini 
                         title="Upper West Side Townhouse"
                         imgSrc="/hero-image.png"
                         projectId="uws-townhouse"
@@ -66,7 +66,12 @@ export default function ProjectsPage() {
                         imgSrc="/hero-image.png"
                         projectId="uws-apartment"
                     />
-
+                    
+                    <ProjectCardMini 
+                        title="Vermont"
+                        imgSrc="/hero-image.png"
+                        projectId="vermont"
+                    /> */}
                     
                 </div>
             </div>

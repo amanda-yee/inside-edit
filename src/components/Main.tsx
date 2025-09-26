@@ -31,24 +31,21 @@ export default function Main() {
 
                     <div className="flex flex-col lg:flex-row justify-between">
                         <ProjectCard 
-                        title="Rhinebeck"
-                        description="Some description of the project or maybe no description at all."
-                        imgSrc="/rhinebeck/main.jpg"
-                        pageId="projects/rhinebeck"
+                        title="Hudson Valley"
+                        imgSrc="/hudson-valley/photo1.jpg"
+                        pageId="projects/hudson-valley"
                         />
 
                         <ProjectCard 
                         title="Upper East Side"
-                        description="Some description of project or maybe no description at all."
                         imgSrc="/ues/main.jpg"
                         pageId="projects/ues"
                         />
 
                         <ProjectCard 
-                        title="Clinton Corners"
-                        description="Some description of project or maybe no description at all."
-                        imgSrc="/clinton-corners/main.jpg"
-                        pageId="projects/clinton-corners"
+                        title="Upstate New York"
+                        imgSrc="/upstate-new-york/photo1.jpg"
+                        pageId="projects/upstate-new-york"
                         />
                     </div>
                 </div>

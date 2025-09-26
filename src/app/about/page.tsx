@@ -1,6 +1,6 @@
 import NavBarSide from "@/components/NavBarSide";
 import NavBarTop from "@/components/NavBarTop";
-import Image from "next/image"
+// import Image from "next/image"
 import Phone from "@/components/icons/Phone.svg"
 import Envelope from "@/components/icons/Envelope.svg"
 
@@ -38,14 +38,14 @@ export default function AboutPage() {
                             Curious and always exploring, she travels widely and draws inspiration from design markets, architecture, and artisans wherever she goes. She thrives on new challenges, whether it’s reimagining a city apartment, restoring a Hudson Valley farmhouse, or sourcing unexpected materials and objects that add depth and character. Every project is a chance to create not just a beautiful space, but a true reflection of the people who live there.
                         </p>
                     </div>
-                    <div className="relative lg:w-[40%] h-[300px]">
+                    {/* <div className="relative lg:w-[40%] h-[300px]">
                         <Image 
                         src="/project-image-1.png"
                         alt="Inside Edit Logo"
                         fill
                         className="object-contain"
                         />
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="pb-6">
