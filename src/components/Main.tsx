@@ -38,14 +38,14 @@ export default function Main() {
 
                         <ProjectCard 
                         title="Upper East Side"
-                        imgSrc="/ues/photo1.webp"
+                        imgSrc="/ues/photo13_resized.webp"
                         pageId="projects/ues"
                         />
 
                         <ProjectCard 
-                        title="Upstate New York"
-                        imgSrc="/upstate-new-york/photo1.webp"
-                        pageId="projects/upstate-new-york"
+                        title="Upstate Barn"
+                        imgSrc="/upstate-barn/photo1.webp"
+                        pageId="projects/upstate-barn"
                         />
                     </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Main() {
                     </h2>
 
                     <div className="font-geist flex flex-col md:flex-row">
-                        <div className="md:w-1/3">
+                        <div className="lg:w-1/3">
                 
                             <ul className="sm:text-lg list-disc list-inside">
                                 <li>Full-Service Interior Design</li>
@@ -65,16 +65,15 @@ export default function Main() {
                             </ul>
                         </div>
 
-                        <div className="md:w-1/3">
+                        <div className="lg:w-1/3">
                 
                             <ul className="sm:text-lg list-disc list-inside">
-                               
                                 <li>Space Planning & Layout Optimization</li>
                                 <li>Custom Millwork & Built-ins</li>
                             </ul>
                         </div>
 
-                        <div className="md:w-1/3">
+                        <div className="lg:w-1/3">
                             <ul className="sm:text-lg list-disc list-inside">
                                 <li>Renovation & Construction Collaboration</li>
                                 <li>Art & Styling</li>

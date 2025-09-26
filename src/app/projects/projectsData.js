@@ -82,6 +82,23 @@ export const projectsData = [
     slug: "ues",
     title: "Upper East Side",
     description: "",
+    media: [
+      '/ues/photo1.webp',
+      '/ues/photo2.webp',
+      '/ues/photo3.webp',
+      '/ues/photo4.webp',
+      '/ues/photo5.webp',
+      '/ues/photo6.webp',
+      '/ues/photo7.webp',
+      '/ues/photo8.webp',
+      '/ues/photo9.webp',
+      '/ues/photo10.webp',
+      '/ues/photo11.webp',
+      '/ues/photo12.webp',
+      '/ues/photo13.webp',
+      '/ues/photo14.webp',
+      '/ues/photo15.webp'
+    ]
   },
   // {
   //   slug: "uws-townhouse",
