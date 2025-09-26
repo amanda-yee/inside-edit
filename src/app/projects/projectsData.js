@@ -1,4 +1,8 @@
-// slug and public-holder name should match
+// slug and public folder name should match
+
+//Terminal code to optimize images (reduce to 1600px wide and convert jpg to webp - saves ~80% file size):
+//mkdir optimized
+//mogrify -path optimized -resize 1600x -format webp *.jpg
 
 export const projectsData = [
   {
@@ -11,12 +15,12 @@ export const projectsData = [
     We preserved and reimagined many of the home’s original architectural details - from the stately stair banister to the intricate moldings - giving them new life in a space that now feels open, comfortable, and deeply personal.\n\n \
     It’s a home with history - and now, a fresh chapter of warmth, light, and livability.",
     media: [
-      '/hudson-valley/photo1.jpg',
-      '/hudson-valley/photo2.jpg',
-      '/hudson-valley/photo3.jpg',
-      '/hudson-valley/photo4.jpg',
-      '/hudson-valley/photo5.jpg',
-      '/hudson-valley/photo6.jpg',
+      '/hudson-valley/photo1.webp',
+      '/hudson-valley/photo2.webp',
+      '/hudson-valley/photo3.webp',
+      '/hudson-valley/photo4.webp',
+      '/hudson-valley/photo5.webp',
+      '/hudson-valley/photo6.webp',
     ]
   },
   {
@@ -29,69 +33,69 @@ export const projectsData = [
     Downstairs, a custom bar and entertaining space invite gatherings year-round, with materials that echo the barn’s past but speak to today’s lifestyle. We preserved the original horse stables - widely considered one of the best surviving examples of 1800s equestrian architecture in the region - keeping their craftsmanship intact and letting their details shine.\n\n \
     This is more than a renovation. It’s a respectful reinvention: a living space that celebrates history, elevates utility, and invites life to unfold inside walls that have already stood for centuries.",
     media: [
-      '/upstate-barn/photo1.jpg',
-      '/upstate-barn/photo2.jpg',
-      '/upstate-barn/photo3.jpg',
-      '/upstate-barn/photo4.jpg',
+      '/upstate-barn/photo1.webp',
+      '/upstate-barn/photo2.webp',
+      '/upstate-barn/photo3.webp',
+      '/upstate-barn/photo4.webp',
     ]
   },
   {
     slug: "upstate-new-york",
     title: "Upstate New York",
-    description: "This is the description placeholder.",
+    description: "",
     media: [
-      '/upstate-new-york/photo1.jpg',
-      '/upstate-new-york/photo2.jpg',
-      '/upstate-new-york/photo3.jpg',
-      '/upstate-new-york/photo4.jpg',
-      '/upstate-new-york/photo5.jpg',
-      '/upstate-new-york/photo6.jpg'
+      '/upstate-new-york/photo1.webp',
+      '/upstate-new-york/photo2.webp',
+      '/upstate-new-york/photo3.webp',
+      '/upstate-new-york/photo4.webp',
+      '/upstate-new-york/photo5.webp',
+      '/upstate-new-york/photo6.webp'
     ]
   },
   {
     slug: "5th-avenue",
     title: "5th Avenue",
-    description: "This is the description placeholder.",
+    description: "",
     media: [
-      '/5th-avenue/photo1.jpg',
-      '/5th-avenue/photo2.jpg',
-      '/5th-avenue/photo3.jpg',
-      '/5th-avenue/photo4.jpg',
-      '/5th-avenue/photo5.jpg',
-      '/5th-avenue/photo6.jpg'
+      '/5th-avenue/photo1.webp',
+      '/5th-avenue/photo2.webp',
+      '/5th-avenue/photo3.webp',
+      '/5th-avenue/photo4.webp',
+      '/5th-avenue/photo5.webp',
+      '/5th-avenue/photo6.webp'
     ]
   },
   {
     slug: "west-village",
     title: "West Village",
-    description: "This is the description placeholder.",
+    description: "",
     media: [
-      '/west-village/photo1.jpg',
-      '/west-village/photo2.jpg',
-      '/west-village/photo3.jpg',
-      '/west-village/photo4.jpg',
-      '/west-village/photo5.jpg',
-      '/west-village/photo6.jpg'
+      '/west-village/photo1.webp',
+      '/west-village/photo2.webp',
+      '/west-village/photo3.webp',
+      '/west-village/photo4.webp',
+      '/west-village/photo5.webp',
+      '/west-village/photo6.webp'
     ]
   },
   {
     slug: "ues",
     title: "Upper East Side",
-    description: "...",
+    description: "",
   },
-  {
-    slug: "uws-townhouse",
-    title: "Upper West Side Townhouse",
-    description: "...",
-  },
-  {
-    slug: "uws-apartment",
-    title: "Upper West Side Apartment",
-    description: "...",
-  },
-  {
-    slug: "vermont",
-    title: "Vermont",
-    description: "...",
-  },
+  // {
+  //   slug: "uws-townhouse",
+  //   title: "Upper West Side Townhouse",
+  //   description: "...",
+  // },
+  // {
+  //   slug: "uws-apartment",
+  //   title: "Upper West Side Apartment",
+  //   description: "...",
+  // },
+  // {
+  //   slug: "vermont",
+  //   title: "Vermont",
+  //   description: "...",
+  // },
 ];

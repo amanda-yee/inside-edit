@@ -32,14 +32,21 @@ export default async function IndividualProjectPage({ params }) {
           {project.title}
         </h1>
 
-        <h2 className="pb-6">
+        {project.subheading2 && (
+          <h2 className="pb-6">
           {project.subheading}
         </h2>
+        )}
 
         <div className="lg:max-w-[90%]">
           <p style={{ whiteSpace: "pre-line" }} className="font-geist">
             {project.description}
           </p>
+
+          <div className="grid content-end grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            
+            {/* Put in top 6 media images here as grid */}
+          </div>  
 
           <div className="mt-8">
             <ImageCarousel mediaArray={project.media}/>

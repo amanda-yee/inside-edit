@@ -21,37 +21,37 @@ export default function ProjectsPage() {
                 <div className="grid content-end grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                     <ProjectCardMini 
                         title="Hudson Valley"
-                        imgSrc="/hudson-valley/photo1.jpg"
+                        imgSrc="/hudson-valley/photo1.webp"
                         projectId="hudson-valley"
                     />
 
                     <ProjectCardMini 
                         title="Upstate Barn"
-                        imgSrc="/upstate-barn/photo1.jpg"
+                        imgSrc="/upstate-barn/photo1.webp"
                         projectId="upstate-barn"
                     />
 
                     <ProjectCardMini 
                         title="Upstate NY"
-                        imgSrc="/upstate-new-york/photo1.jpg"
+                        imgSrc="/upstate-new-york/photo1.webp"
                         projectId="upstate-new-york"
                     />
 
                     <ProjectCardMini 
                         title="5th Avenue"
-                        imgSrc="/5th-avenue/photo1.jpg"
+                        imgSrc="/5th-avenue/photo1.webp"
                         projectId="5th-avenue"
                     />
 
                     <ProjectCardMini 
                         title="West Village"
-                        imgSrc="/west-village/photo1.jpg"
+                        imgSrc="/west-village/photo1.webp"
                         projectId="west-village"
                     />
 
                     <ProjectCardMini 
                         title="Upper East Side"
-                        imgSrc="/hero-image.png"
+                        imgSrc="/ues/photo13.webp"
                         projectId="ues"
                     />
 
