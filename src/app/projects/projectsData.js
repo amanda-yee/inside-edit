@@ -1,8 +1,13 @@
 // slug and public folder name should match
 
-//Terminal code to optimize images (reduce to 1600px wide and convert jpg to webp - saves ~80% file size):
+
+// ***** Image Optimization / Resizing *****
+// Terminal code to optimize images (reduce to 1600px wide and convert jpg to webp - saves ~80% file size):
 //mkdir optimized
 //mogrify -path optimized -resize 1600x -format webp *.jpg
+
+// Code to get image dimensions:
+// magick identify -format "%f: %wx%h\n" *.webp
 
 export const projectsData = [
   {
@@ -15,13 +20,29 @@ export const projectsData = [
     We preserved and reimagined many of the home’s original architectural details - from the stately stair banister to the intricate moldings - giving them new life in a space that now feels open, comfortable, and deeply personal.\n\n \
     It’s a home with history - and now, a fresh chapter of warmth, light, and livability.",
     media: [
-      '/hudson-valley/photo1.webp',
-      '/hudson-valley/photo2.webp',
-      '/hudson-valley/photo3.webp',
-      '/hudson-valley/photo4.webp',
-      '/hudson-valley/photo5.webp',
-      '/hudson-valley/photo6.webp',
-    ]
+      {src: '/hudson-valley/photo1.webp', width: 1600, height: 2400},
+      {src: '/hudson-valley/photo2.webp', width: 1600, height: 2000},
+      {src: '/hudson-valley/photo3.webp', width: 1600, height: 2400},
+      {src: '/hudson-valley/photo4.webp', width: 1600, height: 2000},
+      {src: '/hudson-valley/photo5.webp', width: 1600, height: 2399},
+      {src: '/hudson-valley/photo6.webp', width: 1600, height: 2400},
+      
+      {src: '/hudson-valley/extra1.webp', width: 1600, height: 2399},
+      {src: '/hudson-valley/extra2.webp', width: 1600, height: 2400},
+      {src: '/hudson-valley/extra3.webp', width: 1600, height: 2400},
+      {src: '/hudson-valley/extra4.webp', width: 1600, height: 2000},
+      {src: '/hudson-valley/extra5.webp', width: 1600, height: 2400},
+      {src: '/hudson-valley/extra6.webp', width: 1600, height: 2400},
+      {src: '/hudson-valley/extra7.webp', width: 1600, height: 2400},
+      {src: '/hudson-valley/extra8.webp', width: 1600, height: 2000},
+      {src: '/hudson-valley/extra9.webp', width: 1600, height: 2000},
+      {src: '/hudson-valley/extra10.webp', width: 1600, height: 2000},
+      {src: '/hudson-valley/extra11.webp', width: 1600, height: 2400},
+      {src: '/hudson-valley/extra12.webp', width: 1600, height: 2400},
+      {src: '/hudson-valley/extra13.webp', width: 1600, height: 2000},
+      
+    ],
+    thumbnailCount: 6 // specify how many thumbnails to show in grid (rest are hidden but still accessible in carousel)
   },
   {
     slug: "upstate-barn",
@@ -33,72 +54,116 @@ export const projectsData = [
     Downstairs, a custom bar and entertaining space invite gatherings year-round, with materials that echo the barn’s past but speak to today’s lifestyle. We preserved the original horse stables - widely considered one of the best surviving examples of 1800s equestrian architecture in the region - keeping their craftsmanship intact and letting their details shine.\n\n \
     This is more than a renovation. It’s a respectful reinvention: a living space that celebrates history, elevates utility, and invites life to unfold inside walls that have already stood for centuries.",
     media: [
-      '/upstate-barn/photo1.webp',
-      '/upstate-barn/photo2.webp',
-      '/upstate-barn/photo3.webp',
-      '/upstate-barn/photo4.webp',
-    ]
+      {src: '/upstate-barn/photo1.webp', width: 1600, height: 2400},
+      {src: '/upstate-barn/photo2.webp', width: 1600, height: 1067},
+      {src: '/upstate-barn/photo3.webp', width: 1600, height: 2400},
+      {src: '/upstate-barn/photo4.webp', width: 1600, height: 1067},
+    ],
+    thumbnailCount: 4
   },
   {
     slug: "upstate-new-york",
     title: "Upstate New York",
     description: "",
     media: [
-      '/upstate-new-york/photo1.webp',
-      '/upstate-new-york/photo2.webp',
-      '/upstate-new-york/photo3.webp',
-      '/upstate-new-york/photo4.webp',
-      '/upstate-new-york/photo5.webp',
-      '/upstate-new-york/photo6.webp'
-    ]
+      {src: '/upstate-new-york/photo1.webp', width: 1600, height: 2240},
+      {src: '/upstate-new-york/photo2.webp', width: 1600, height: 2399},
+      {src: '/upstate-new-york/photo3.webp', width: 1600, height: 2378},
+      {src: '/upstate-new-york/photo4.webp', width: 1600, height: 2240},
+      {src: '/upstate-new-york/photo5.webp', width: 1600, height: 2400},
+      {src: '/upstate-new-york/photo6.webp', width: 1600, height: 2000},
+
+      {src: '/upstate-new-york/9P_WEB 1.webp', width: 1600, height: 2000},
+      {src: '/upstate-new-york/9P_WEB 2.webp', width: 1600, height: 2240},
+      {src: '/upstate-new-york/9P_WEB 4.webp', width: 1600, height: 2400},
+      {src: '/upstate-new-york/9P_WEB 5.webp', width: 1600, height: 2400},
+      {src: '/upstate-new-york/9P_WEB 7.webp', width: 1600, height: 2399},
+      {src: '/upstate-new-york/9P_WEB 11.webp', width: 1600, height: 2240},
+      {src: '/upstate-new-york/9P_WEB 13.webp', width: 1600, height: 2000},
+    ],
+    thumbnailCount: 6
   },
   {
     slug: "5th-avenue",
     title: "5th Avenue",
     description: "",
     media: [
-      '/5th-avenue/photo1.webp',
-      '/5th-avenue/photo2.webp',
-      '/5th-avenue/photo3.webp',
-      '/5th-avenue/photo4.webp',
-      '/5th-avenue/photo5.webp',
-      '/5th-avenue/photo6.webp'
-    ]
+      {src: '/5th-avenue/photo1.webp', width: 1600, height: 2000},
+      {src: '/5th-avenue/photo2.webp', width: 1600, height: 1096},
+      {src: '/5th-avenue/photo3.webp', width: 1600, height: 2000},
+      {src: '/5th-avenue/photo4.webp', width: 1600, height: 2363},
+      {src: '/5th-avenue/photo5.webp', width: 1600, height: 1105},
+      {src: '/5th-avenue/photo6.webp', width: 1600, height: 2000},
+    ],
+    thumbnailCount: 6
   },
   {
     slug: "west-village",
     title: "West Village",
     description: "",
     media: [
-      '/west-village/photo1.webp',
-      '/west-village/photo2.webp',
-      '/west-village/photo3.webp',
-      '/west-village/photo4.webp',
-      '/west-village/photo5.webp',
-      '/west-village/photo6.webp'
-    ]
+      {src: '/west-village/photo1.webp', width: 1600, height: 2223},
+      {src: '/west-village/photo2.webp', width: 1600, height: 2017},
+      {src: '/west-village/photo3.webp', width: 1600, height: 2400},
+      {src: '/west-village/photo4.webp', width: 1600, height: 2400},
+      {src: '/west-village/photo5.webp', width: 1600, height: 2400},
+      {src: '/west-village/photo6.webp', width: 1600, height: 2400},
+
+      {src: '/west-village/2Cor_WEB 1.webp', width: 1600, height: 2400},
+      {src: '/west-village/2Cor_WEB 4.webp', width: 1600, height: 2400},
+    ],
+    thumbnailCount: 6
   },
   {
     slug: "ues",
     title: "Upper East Side",
     description: "",
     media: [
-      '/ues/photo1.webp',
-      '/ues/photo2.webp',
-      '/ues/photo3.webp',
-      '/ues/photo4.webp',
-      '/ues/photo5.webp',
-      '/ues/photo6.webp',
-      '/ues/photo7.webp',
-      '/ues/photo8.webp',
-      '/ues/photo9.webp',
-      '/ues/photo10.webp',
-      '/ues/photo11.webp',
-      '/ues/photo12.webp',
-      '/ues/photo13.webp',
-      '/ues/photo14.webp',
-      '/ues/photo15.webp'
-    ]
+      {src: '/ues/photo1.webp', width: 1600, height: 2400},
+      {src: '/ues/photo2.webp', width: 1600, height: 1067},
+      {src: '/ues/photo3.webp', width: 1600, height: 2000},
+      {src: '/ues/photo4.webp', width: 1600, height: 2000},
+      {src: '/ues/photo5.webp', width: 1600, height: 1067},
+      {src: '/ues/photo6.webp', width: 1600, height: 2400},
+      {src: '/ues/photo7.webp', width: 1600, height: 2000},
+      {src: '/ues/photo8.webp', width: 1600, height: 1067},
+      {src: '/ues/photo9.webp', width: 1600, height: 1067},
+      {src: '/ues/photo10.webp', width: 1600, height: 2400},
+      {src: '/ues/photo11.webp', width: 1600, height: 2400},
+      {src: '/ues/photo12.webp', width: 1600, height: 1067},
+      {src: '/ues/photo13.webp', width: 1600, height: 2240},
+      {src: '/ues/photo14.webp', width: 1600, height: 2400},
+      {src: '/ues/photo15.webp', width: 1600, height: 1867},
+
+      {src: '/ues/Parkave_WEB 3.webp', width: 1600, height: 2399},
+      {src: '/ues/Parkave_WEB 4.webp', width: 1600, height: 2000},
+      {src: '/ues/Parkave_WEB 6.webp', width: 1600, height: 2400},
+      {src: '/ues/Parkave_WEB 7.webp', width: 1600, height: 2000},
+      {src: '/ues/Parkave_WEB 10.webp', width: 1600, height: 2400},
+      {src: '/ues/Parkave_WEB 11.webp', width: 1600, height: 2399},
+      {src: '/ues/Parkave_WEB 13.webp', width: 1600, height: 2000},
+      {src: '/ues/Parkave_WEB 15.webp', width: 1600, height: 2400},
+      {src: '/ues/Parkave_WEB 16.webp', width: 1600, height: 2000},
+      {src: '/ues/Parkave_WEB 27.webp', width: 1600, height: 2399},
+      {src: '/ues/Parkave_WEB 28.webp', width: 1600, height: 1067},
+      {src: '/ues/Parkave_WEB 29.webp', width: 1600, height: 1600},
+      {src: '/ues/Parkave_WEB 31.webp', width: 1600, height: 2399},
+      {src: '/ues/Parkave_WEB 32.webp', width: 1600, height: 2400},
+      {src: '/ues/Parkave_WEB 33.webp', width: 1600, height: 1067},
+      {src: '/ues/Parkave_WEB 36.webp', width: 1600, height: 2400}, 
+      {src: '/ues/Parkave_WEB 42.webp', width: 1600, height: 2400},
+      {src: '/ues/Parkave_WEB 43.webp', width: 1600, height: 1067},
+      {src: '/ues/Parkave_WEB 45.webp', width: 1600, height: 2240},
+      {src: '/ues/Parkave_WEB 46.webp', width: 1600, height: 2400},
+      {src: '/ues/Parkave_WEB 48.webp', width: 1600, height: 2400},
+      {src: '/ues/Parkave_WEB 49.webp', width: 1600, height: 2000},
+      {src: '/ues/Parkave_WEB 54.webp', width: 1600, height: 1067},
+      {src: '/ues/Parkave_WEB 55.webp', width: 1600, height: 1067},
+      {src: '/ues/Parkave_WEB 56.webp', width: 1600, height: 2400},
+      {src: '/ues/Parkave_WEB.webp', width: 1600, height: 2400},
+
+    ],
+    thumbnailCount: 15
   },
   // {
   //   slug: "uws-townhouse",

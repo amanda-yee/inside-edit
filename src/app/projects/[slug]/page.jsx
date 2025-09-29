@@ -2,10 +2,12 @@ import { projectsData } from '../projectsData';
 import NavBarSide from "@/components/NavBarSide";
 import NavBarTop from "@/components/NavBarTop";
 import Image from 'next/image';
+import GalleryClient from '@/components/GalleryClient';
 
 // import ImageCarousel from "@/components/ImageCarousel";
 
 // this will pre-generate all the paths at build time, e.g. /projects/hudson-valley, /projects/upstate-new-york
+// [slug] is a dynamic segment, enabling this one page component to handle multiple routes
 export async function generateStaticParams() {
   return projectsData.map((proj) => ({
     slug: proj.slug,
@@ -46,47 +48,9 @@ export default async function IndividualProjectPage({ params }) {
             </p>
           </div>
 
-          <div className="grid content-end grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            
-            {project.media.map((imageSrc, index) => (
-              <div key={index} className="aspect-square relative">
-                  <Image
-                  className="object-cover" //crops instead of stretching
-                  src={imageSrc} 
-                  alt="Project Image"
-                  fill
-                  sizes="(max-width: 768px) 100vw,
-                          (max-width: 1200px) 50vw,
-                          33vw"
-                  loading="lazy" 
-                  />
-              </div>
-            ))}
-          </div>  
+          <GalleryClient images={project.media} thumbnailCount={project.thumbnailCount} />
 
-          {/* <div className="mt-8">
-            <ImageCarousel mediaArray={project.media}/>
-          </div> */}
         </div>
-
-        {/* Only render below if subheading2 exists */}
-        {/* {project.subheading2 && (
-          <>
-            <h2 className="pt-16 pb-6">
-              {project.subheading2}
-            </h2>
-
-            <div className="lg:max-w-[90%]">
-              <p style={{ whiteSpace: "pre-line" }} className="font-geist">
-                {project.description2}
-              </p>
-
-              <div className="mt-8">
-                <ImageCarousel mediaArray={project.media2}/>
-              </div>
-            </div>
-          </>
-        )} */}
 
       </div>
     </div>
