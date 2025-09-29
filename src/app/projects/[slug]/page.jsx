@@ -48,30 +48,8 @@ export default async function IndividualProjectPage({ params }) {
             </p>
           </div>
 
+          <GalleryClient images={project.media} thumbnailCount={project.thumbnailCount} />
 
-        <GalleryClient images={project.media} thumbnailCount={project.thumbnailCount} />
-
-          {/* <div className="grid content-end grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            
-            {project.media.map((imageSrc, index) => (
-              <div key={index} className="aspect-square relative">
-                  <Image
-                  className="object-cover" //crops instead of stretching
-                  src={imageSrc} 
-                  alt="Project Image"
-                  fill
-                  sizes="(max-width: 768px) 100vw,
-                          (max-width: 1200px) 50vw,
-                          33vw"
-                  loading="lazy" 
-                  />
-              </div>
-            ))}
-          </div>   */}
-
-          {/* <div className="mt-8">
-            <ImageCarousel mediaArray={project.media}/>
-          </div> */}
         </div>
 
       </div>
