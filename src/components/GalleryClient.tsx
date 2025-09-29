@@ -1,6 +1,8 @@
 "use client";
 
-import Image from 'next/image';
+// import Image from 'next/image';
+
+//https://www.npmjs.com/package/react-photoswipe-gallery
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
