@@ -29,7 +29,7 @@ export default function Main() {
                         selected projects
                     </h2>
 
-                    <div className="flex flex-col lg:flex-row justify-between">
+                    <div className="flex flex-col md:flex-row justify-between">
                         <ProjectCard 
                         title="Hudson Valley"
                         imgSrc="/hudson-valley/photo1.webp"
@@ -38,7 +38,7 @@ export default function Main() {
 
                         <ProjectCard 
                         title="Upper East Side"
-                        imgSrc="/ues/photo13_resized.webp"
+                        imgSrc="/ues/photo13_resized_for_main_page.webp"
                         pageId="projects/ues"
                         />
 
