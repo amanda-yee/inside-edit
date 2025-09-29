@@ -14,16 +14,28 @@ export default function Hero() {
           priority // tells next.js to load image asap
         />
 
-        <div className="absolute z-10 flex flex-col ml-10 top-[30%] gap-6 text-[#000000]">
-          <Image
-            src="/logo-black.png"
-            alt="Inside Edit Logo"
-            width={250}
-            height={50}
-            priority
-          />
-          <NavLinks />
+        {/* Different displays based on screen size */}
+        <div className="block md:hidden absolute z-10 flex flex-col top-[30%] items-center w-full">
+            <Image
+              src="/logo-white.png"
+              alt="Inside Edit Logo"
+              width={250}
+              height={50}
+              priority
+            />
         </div>
+        
+        <div className="hidden md:block absolute z-10 flex flex-col top-[30%] ml-10 gap-6 text-[#000000]">
+            <Image
+              src="/logo-black.png"
+              alt="Inside Edit Logo"
+              width={250}
+              height={50}
+              priority
+            />
+            <NavLinks />
+        </div>
+  
 
         <div className="absolute z-10 bottom-5 left-1/2 transform -translate-x-1/2"> 
           <a href="#main">
