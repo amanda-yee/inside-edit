@@ -28,8 +28,6 @@ export default function ProjectCard( {title, imgSrc, pageId}: ProjectCardProps )
                     />
                 </Link>
             </div>
-
-            
         </div>
     )
 }
