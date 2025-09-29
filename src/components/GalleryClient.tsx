@@ -1,14 +1,19 @@
 "use client";
 
+import Image from 'next/image';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
+type MediaImage = {
+  src: string;
+  width: number;
+  height: number;
+};
+
 type GalleryClientProps = {
-    images: any[];
+    images: MediaImage[];
     thumbnailCount: number;
   };
-
-
 
 export default function GalleryClient( {images, thumbnailCount = 3}: GalleryClientProps ) {
 
