@@ -57,19 +57,19 @@ export default function ProjectsPage() {
 
                     {/* <ProjectCardMini 
                         title="Upper West Side Townhouse"
-                        imgSrc="/hero-image.png"
+                        imgSrc="/hero-image.jpg"
                         projectId="uws-townhouse"
                     />
 
                     <ProjectCardMini 
                         title="Upper West Side Apartment"
-                        imgSrc="/hero-image.png"
+                        imgSrc="/hero-image.jpg"
                         projectId="uws-apartment"
                     />
                     
                     <ProjectCardMini 
                         title="Vermont"
-                        imgSrc="/hero-image.png"
+                        imgSrc="/hero-image.jpg"
                         projectId="vermont"
                     /> */}
                     

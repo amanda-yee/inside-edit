@@ -7,7 +7,7 @@ export default function Hero() {
     <main className="relative w-screen h-screen">
         <Image
           className="z-0"
-          src="/hero-image2.jpg"
+          src="/hero-image.jpg"
           alt="Hero Image"
           layout="fill" // fill parent container
           objectFit="cover" // fills the area and crops if needed
