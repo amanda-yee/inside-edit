@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/projects/[slug]/page.jsx", "src/app/projects/projectsData.js", "src/components/GalleryClient.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/projects/[slug]/page.jsx", "src/app/projects/projectsData.js"],
   "exclude": ["node_modules"]
 }
