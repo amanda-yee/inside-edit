@@ -37,16 +37,17 @@ export default function Main() {
                         />
 
                         <ProjectCard 
+                        title="Upstate Barn"
+                        imgSrc="/upstate-barn/photo1.webp"
+                        pageId="projects/upstate-barn"
+                        />
+
+                        <ProjectCard 
                         title="Upper East Side"
                         imgSrc="/ues/photo13_resized_for_main_page.webp"
                         pageId="projects/ues"
                         />
 
-                        <ProjectCard 
-                        title="Upstate Barn"
-                        imgSrc="/upstate-barn/photo1.webp"
-                        pageId="projects/upstate-barn"
-                        />
                     </div>
                 </div>
 
