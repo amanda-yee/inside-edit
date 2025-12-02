@@ -28,6 +28,7 @@ export default function ProjectCardMini( {title, imgSrc, projectId}: ProjectCard
                        (max-width: 1200px) 50vw,
                        33vw"
                 />
+                priority
                 </Link>
             </div>
         </div>

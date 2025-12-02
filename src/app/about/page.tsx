@@ -45,6 +45,7 @@ export default function AboutPage() {
                         alt="Laura Heintz - Headshot"
                         width={300}
                         height={400}
+                        priority
                         />
                     </div>
                 </div>
