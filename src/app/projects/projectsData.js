@@ -3,10 +3,10 @@
 
 // ***** Image Optimization / Resizing *****
 // Terminal code to optimize images (reduce to 1600px wide and convert jpg to webp - saves ~80% file size):
-//mkdir optimized
+// mkdir optimized
 //mogrify -path optimized -resize 1600x -format webp *.jpg
 
-// Code to get image dimensions:
+// Code to get image dimensions. Explicitly state the media size for now (tech debt):
 // magick identify -format "%f: %wx%h\n" *.webp
 
 export const projectsData = [
@@ -170,11 +170,33 @@ export const projectsData = [
   //   title: "Upper West Side Townhouse",
   //   description: "...",
   // },
-  // {
-  //   slug: "uws-apartment",
-  //   title: "Upper West Side Apartment",
-  //   description: "...",
-  // },
+  {
+    slug: "uws-apartment",
+    title: "Upper West Side Apartment",
+    description: "",
+    media: [
+      {src: '/uws-apartment/270WE_WEB.webp', width: 1600, height: 2240},
+      {src: '/uws-apartment/270WE_WEB 1.webp', width: 1600, height: 2000},
+      {src: '/uws-apartment/270WE_WEB 2.webp', width: 1600, height: 2400},
+      {src: '/uws-apartment/270WE_WEB 3.webp', width: 1600, height: 2400},
+      {src: '/uws-apartment/270WE_WEB 4.webp', width: 1600, height: 2400},
+      {src: '/uws-apartment/270WE_WEB 5.webp', width: 1600, height: 2400},
+      {src: '/uws-apartment/270WE_WEB 6.webp', width: 1600, height: 2400},
+      {src: '/uws-apartment/270WE_WEB 7.webp', width: 1600, height: 2240},
+      {src: '/uws-apartment/270WE_WEB 8.webp', width: 1600, height: 2240},
+      {src: '/uws-apartment/270WE_WEB 9.webp', width: 1600, height: 2240},
+      {src: '/uws-apartment/270WE_WEB 10.webp', width: 1600, height: 2240},
+      {src: '/uws-apartment/270WE_WEB 11.webp', width: 1600, height: 2400},
+      {src: '/uws-apartment/270WE_WEB 12.webp', width: 1600, height: 2240},
+      {src: '/uws-apartment/270WE_WEB 13.webp', width: 1600, height: 2400},
+      {src: '/uws-apartment/270WE_WEB 14.webp', width: 1600, height: 2400},
+      {src: '/uws-apartment/270WE_WEB 15.webp', width: 1600, height: 2400},
+      {src: '/uws-apartment/270WE_WEB 16.webp', width: 1600, height: 1600},
+      {src: '/uws-apartment/270WE_WEB 17.webp', width: 1600, height: 2400},
+      {src: '/uws-apartment/270WE_WEB 18.webp', width: 1600, height: 1971},
+    ],
+    thumbnailCount: 12
+  },
   // {
   //   slug: "vermont",
   //   title: "Vermont",

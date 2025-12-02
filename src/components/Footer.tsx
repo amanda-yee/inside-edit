@@ -37,7 +37,9 @@ export default function Footer() {
           </div>
           
           <div className="flex justify-center">
-            <p>&copy; Azzurra Studios 2025</p>
+            <a href="mailto:amandakyee@gmail.com">
+                &copy; Azzurra Studios 2025
+            </a>
           </div>
           
         </footer>
