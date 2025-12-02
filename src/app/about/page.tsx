@@ -1,6 +1,6 @@
 import NavBarSide from "@/components/NavBarSide";
 import NavBarTop from "@/components/NavBarTop";
-// import Image from "next/image"
+import Image from "next/image"
 import Phone from "@/components/icons/Phone.svg"
 import Envelope from "@/components/icons/Envelope.svg"
 
@@ -26,8 +26,8 @@ export default function AboutPage() {
                     Owner and Principal Designer
                 </h2>
 
-                <div className="flex flex-col lg:flex-row pb-12 max-w-[100%]">
-                    <div className="flex-1 font-geist pr-4 pb-6">
+                <div className="flex flex-col lg:flex-row pr-[2%] pb-12 max-w-[100%]">
+                    <div className="lg:flex-[2] font-geist pr-12 pb-6">
                         <p>
                             Laura is a fun, dynamic interior designer bringing warmth and energy to homes in New York City and the Hudson Valley. With a philosophy rooted in warm minimalism, she designs spaces that feel inviting, personal, and never cookie-cutter. She listens closely to her clients, translating their stories and lifestyle into interiors that feel both effortless and uniquely their own.
                             <br /><br />
@@ -38,14 +38,15 @@ export default function AboutPage() {
                             Curious and always exploring, she travels widely and draws inspiration from design markets, architecture, and artisans wherever she goes. She thrives on new challenges, whether it’s reimagining a city apartment, restoring a Hudson Valley farmhouse, or sourcing unexpected materials and objects that add depth and character. Every project is a chance to create not just a beautiful space, but a true reflection of the people who live there.
                         </p>
                     </div>
-                    {/* <div className="relative lg:w-[40%] h-[300px]">
-                        <Image 
-                        src="/project-image-1.png"
-                        alt="Inside Edit Logo"
-                        fill
-                        className="object-contain"
+                    <div className="flex justify-center items-start">
+                        <Image
+                        className="h-auto"
+                        src="/laura-headshot.jpg"
+                        alt="Laura Heintz - Headshot"
+                        width={300}
+                        height={400}
                         />
-                    </div> */}
+                    </div>
                 </div>
 
                 <div className="pb-6">
