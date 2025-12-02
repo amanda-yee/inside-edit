@@ -40,7 +40,6 @@ export default function Footer() {
             <a href="mailto:amandakyee@gmail.com">
                 &copy; Azzurra Studios 2025
             </a>
-            {/* <p>&copy; Azzurra Studios 2025</p> */}
           </div>
           
         </footer>
