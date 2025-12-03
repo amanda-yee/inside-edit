@@ -26,9 +26,15 @@ export default function ProjectsPage() {
                     />
 
                     <ProjectCardMini 
-                        title="Upstate Barn"
-                        imgSrc="/upstate-barn/photo1.webp"
-                        projectId="upstate-barn"
+                        title="5th Avenue"
+                        imgSrc="/5th-avenue/photo1.webp"
+                        projectId="5th-avenue"
+                    />
+
+                    <ProjectCardMini 
+                        title="Upper East Side"
+                        imgSrc="/ues/photo13.webp"
+                        projectId="ues"
                     />
 
                     <ProjectCardMini 
@@ -38,22 +44,24 @@ export default function ProjectsPage() {
                     />
 
                     <ProjectCardMini 
-                        title="5th Avenue"
-                        imgSrc="/5th-avenue/photo1.webp"
-                        projectId="5th-avenue"
+                        title="Upstate Barn"
+                        imgSrc="/upstate-barn/photo1.webp"
+                        projectId="upstate-barn"
+                    />
+
+                    <ProjectCardMini 
+                        title="Upper West Side"
+                        imgSrc="/uws-apartment/270WE_WEB 9.webp"
+                        projectId="uws-apartment"
                     />
 
                     <ProjectCardMini 
                         title="West Village"
-                        imgSrc="/west-village/photo1.webp"
+                        imgSrc="/west-village/photo6.webp"
                         projectId="west-village"
                     />
 
-                    <ProjectCardMini 
-                        title="Upper East Side"
-                        imgSrc="/ues/photo13.webp"
-                        projectId="ues"
-                    />
+                    
 
                     {/* <ProjectCardMini 
                         title="Upper West Side Townhouse"
@@ -61,11 +69,7 @@ export default function ProjectsPage() {
                         projectId="uws-townhouse"
                     /> */}
 
-                    <ProjectCardMini 
-                        title="Upper West Side Apartment"
-                        imgSrc="/hero-image.jpg"
-                        projectId="uws-apartment"
-                    />
+                    
                     
                     {/* <ProjectCardMini 
                         title="Vermont"
