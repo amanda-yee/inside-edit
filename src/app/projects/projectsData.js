@@ -49,7 +49,7 @@ export const projectsData = [
     title: "Upstate Barn",
     // subheading: "",
     description: "What was once a hardworking 19th-century barn is now a breathtaking multipurpose space - equal parts heritage and high design. \n\n \
-    We began by honoring the barn’s original structure, preserving its soaring timber trusses and hand-hewn beams. These elements became the backbone of the design, anchoring the space with a sense of history and quiet strength. Rather than compete with the past, we worked with it - amplifying the volume and character of the building while adding modern layers of comfort and functionality. \n\n \
+    We began by honoring the barn’s original structure, preserving its soaring timber truss and hand-hewn beams. These elements became the backbone of the design, anchoring the space with a sense of history and quiet strength. Rather than compete with the past, we worked with it - amplifying the volume and character of the building while adding modern layers of comfort and functionality. \n\n \
     A sleek, light-filled apartment now lives on the upper level, complete with a full kitchen, open-concept living area, and panoramic views thanks to expansive new glazing. Modern steel-framed windows and oversized doors were added to flood the interiors with natural light and to blur the lines between indoors and out - making the most of the barn’s original siting and stunning surroundings\n\n \
     Downstairs, a custom bar and entertaining space invite gatherings year-round, with materials that echo the barn’s past but speak to today’s lifestyle. We preserved the original horse stables - widely considered one of the best surviving examples of 1800s equestrian architecture in the region - keeping their craftsmanship intact and letting their details shine.\n\n \
     This is more than a renovation. It’s a respectful reinvention: a living space that celebrates history, elevates utility, and invites life to unfold inside walls that have already stood for centuries.",
@@ -92,7 +92,7 @@ export const projectsData = [
       {src: '/5th-avenue/photo2.webp', width: 1600, height: 1096},
       {src: '/5th-avenue/photo3.webp', width: 1600, height: 2000},
       {src: '/5th-avenue/photo4.webp', width: 1600, height: 2363},
-      {src: '/5th-avenue/photo5.webp', width: 1600, height: 1105},
+      // {src: '/5th-avenue/photo5.webp', width: 1600, height: 1105},
       {src: '/5th-avenue/photo6.webp', width: 1600, height: 2000},
     ],
     thumbnailCount: 6
@@ -102,12 +102,12 @@ export const projectsData = [
     title: "West Village",
     description: "",
     media: [
-      {src: '/west-village/photo1.webp', width: 1600, height: 2223},
       {src: '/west-village/photo2.webp', width: 1600, height: 2017},
       {src: '/west-village/photo3.webp', width: 1600, height: 2400},
       {src: '/west-village/photo4.webp', width: 1600, height: 2400},
       {src: '/west-village/photo5.webp', width: 1600, height: 2400},
       {src: '/west-village/photo6.webp', width: 1600, height: 2400},
+      {src: '/west-village/photo1.webp', width: 1600, height: 2223},
 
       {src: '/west-village/2Cor_WEB 1.webp', width: 1600, height: 2400},
       {src: '/west-village/2Cor_WEB 4.webp', width: 1600, height: 2400},
@@ -181,9 +181,9 @@ export const projectsData = [
       {src: '/uws-apartment/270WE_WEB 3.webp', width: 1600, height: 2400},
       {src: '/uws-apartment/270WE_WEB 4.webp', width: 1600, height: 2400},
       {src: '/uws-apartment/270WE_WEB 5.webp', width: 1600, height: 2400},
-      {src: '/uws-apartment/270WE_WEB 6.webp', width: 1600, height: 2400},
-      {src: '/uws-apartment/270WE_WEB 7.webp', width: 1600, height: 2240},
-      {src: '/uws-apartment/270WE_WEB 8.webp', width: 1600, height: 2240},
+      // {src: '/uws-apartment/270WE_WEB 6.webp', width: 1600, height: 2400},
+      // {src: '/uws-apartment/270WE_WEB 7.webp', width: 1600, height: 2240},
+      // {src: '/uws-apartment/270WE_WEB 8.webp', width: 1600, height: 2240},
       {src: '/uws-apartment/270WE_WEB 9.webp', width: 1600, height: 2240},
       {src: '/uws-apartment/270WE_WEB 10.webp', width: 1600, height: 2240},
       {src: '/uws-apartment/270WE_WEB 11.webp', width: 1600, height: 2400},
