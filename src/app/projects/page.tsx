@@ -33,7 +33,7 @@ export default function ProjectsPage() {
 
                     <ProjectCardMini 
                         title="Upper East Side"
-                        imgSrc="/ues/photo13.webp"
+                        imgSrc="/ues/photo4.webp"
                         projectId="ues"
                     />
 

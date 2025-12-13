@@ -55,10 +55,23 @@ export default function AboutPage() {
                         client love
                     </h2>
 
-                    <div className="flex gap-12 font-geist">
+                    <div className="flex gap-12 font-geist lg:max-w-[75%]">
                         <div className="flex-1">
                             <p>
-                                &quot;They turned our &apos;forever home&apos; into a place that actually feels like us - comfortable, intentional, and full of surprises we never would&apos;ve thought of.&quot;
+                                &quot;They turned our &apos;forever home&apos; into a place that actually feels like us - 
+                                comfortable, intentional, and full of surprises we never would&apos;ve thought of.&quot;
+                            </p>
+                            <br></br>
+                            <p>
+                                &quot;Working with Laura was an absolute joy. 
+                                She really took the time to understand how I live and what I value, and the result is a home that feels unmistakably me. 
+                                Every detail was thoughtful, every challenge was met with creativity, and the final space is something I’m proud to show off.&quot;
+                            </p>
+                            <br></br>
+                            <p>
+                                &quot;Inside Edit exceeded every expectation we had. 
+                                Their eye for detail, clear communication, and ability to translate our vague ideas into a cohesive, beautiful design were exceptional. 
+                                The project ran smoothly from start to finish, and the end result elevated our entire home.&quot;
                             </p>
                         </div>
                     </div>
