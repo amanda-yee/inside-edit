@@ -52,6 +52,10 @@ export default async function IndividualProjectPage({ params }) {
 
         </div>
 
+        <div className="pt-2">
+          <span>Photography by Paolo Verzani</span>
+        </div>
+
       </div>
     </div>
   );
