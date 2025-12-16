@@ -44,7 +44,7 @@ export default function Main() {
 
                         <ProjectCard 
                         title="Upper East Side"
-                        imgSrc="/ues/photo13_resized_for_main_page.webp"
+                        imgSrc="/ues/photo4_resized_for_main_page.webp"
                         pageId="projects/ues"
                         />
 
