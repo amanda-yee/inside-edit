@@ -36,9 +36,9 @@ export default function Footer() {
             </div>
           </div>
           
-          <div className="flex justify-center">
+          <div className="flex justify-center text-sm text-gray-500 hover:text-black italic">
             <a href="mailto:azzurrastudios@gmail.com">
-                &copy; Azzurra Studios 2025
+                Website by Azzurra Studios
             </a>
           </div>
           
