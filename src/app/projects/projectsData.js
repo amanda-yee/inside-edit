@@ -4,7 +4,7 @@
 // ***** Image Optimization / Resizing *****
 // Terminal code to optimize images (reduce to 1600px wide and convert jpg to webp - saves ~80% file size):
 // mkdir optimized
-//mogrify -path optimized -resize 1600x -format webp *.jpg
+// mogrify -path optimized -resize 1600x -format webp *.jpg
 
 // Code to get image dimensions. Explicitly state the media size for now (tech debt):
 // magick identify -format "%f: %wx%h\n" *.webp
@@ -197,9 +197,24 @@ export const projectsData = [
     ],
     thumbnailCount: 12
   },
-  // {
-  //   slug: "vermont",
-  //   title: "Vermont",
-  //   description: "...",
-  // },
+  {
+    slug: "bedford",
+    title: "Bedford",
+    description: "",
+    media: [
+      {src: '/bedford/main_profile_picture.webp', width: 1600, height: 2400},
+      {src: '/bedford/photo1.webp', width: 1600, height: 2000},
+      {src: '/bedford/photo2.webp', width: 1600, height: 2240},
+      {src: '/bedford/photo3.webp', width: 1600, height: 2400},
+      {src: '/bedford/photo4.webp', width: 1600, height: 2133},
+      {src: '/bedford/photo5.webp', width: 1600, height: 2000},
+      {src: '/bedford/photo6.webp', width: 1600, height: 1067},
+      {src: '/bedford/photo7.webp', width: 1600, height: 2000},
+      {src: '/bedford/photo8.webp', width: 1600, height: 2400},
+      {src: '/bedford/photo9.webp', width: 1600, height: 2400},
+      {src: '/bedford/photo10.webp', width: 1600, height: 2133},
+      {src: '/bedford/photo11.webp', width: 1600, height: 1067}
+    ],
+    thumbnailCount: 6
+  },
 ];
