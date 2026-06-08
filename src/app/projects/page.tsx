@@ -71,11 +71,11 @@ export default function ProjectsPage() {
 
                     
                     
-                    {/* <ProjectCardMini 
-                        title="Vermont"
-                        imgSrc="/hero-image.jpg"
-                        projectId="vermont"
-                    />  */}
+                    <ProjectCardMini 
+                        title="Bedford"
+                        imgSrc="/bedford/main_profile_picture.webp"
+                        projectId="bedford"
+                    /> 
                     
                 </div>
             </div>
