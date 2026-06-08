@@ -60,16 +60,6 @@ export default function ProjectsPage() {
                         imgSrc="/west-village/photo6.webp"
                         projectId="west-village"
                     />
-
-                    
-
-                    {/* <ProjectCardMini 
-                        title="Upper West Side Townhouse"
-                        imgSrc="/hero-image.jpg"
-                        projectId="uws-townhouse"
-                    /> */}
-
-                    
                     
                     <ProjectCardMini 
                         title="Bedford"
