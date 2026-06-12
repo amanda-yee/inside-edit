@@ -1,6 +1,6 @@
 "use client";
 
-// import Image from 'next/image';
+import Image from 'next/image';
 
 //https://www.npmjs.com/package/react-photoswipe-gallery
 import 'photoswipe/dist/photoswipe.css'
@@ -24,28 +24,29 @@ export default function GalleryClient( {images, thumbnailCount = 3}: GalleryClie
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
 
                 {images.map((img, i) => (
-                    <div key={i} className={`w-full aspect-square overflow-hidden ${ 
-                                            i >= thumbnailCount ? "hidden" : ""
-                                            }`} // only render thumbnail image if within count (hide extra images visually)
+                    <Item
+                        key={i}
+                        original={img.src}
+                        thumbnail={img.src}
+                        width={img.width}
+                        height={img.height}
                     >
-                        <Item
-                            // key={i}
-                            original={img.src}
-                            thumbnail={img.src}
-                            width={img.width}
-                            height={img.height}
-                        >
-                            {({ ref, open }) => (
-                            <img
+                        {({ ref, open }) => (
+                            <div
                                 ref={ref}
-                                onClick={open} // opens fullscreen
-                                src={img.src}
-                                alt={`Project Image ${i + 1}`}
-                                className="cursor-pointer w-full h-full object-cover" // object-cover to fill entire box
-                            />
-                            )}
-                        </Item>
-                    </div>
+                                onClick={open}
+                                className={`relative w-full aspect-square overflow-hidden cursor-pointer ${i >= thumbnailCount ? "hidden" : ""}`}
+                            >
+                                <Image
+                                    src={img.src}
+                                    alt={`Project Image ${i + 1}`}
+                                    fill
+                                    sizes="(max-width: 768px) 50vw, 33vw"
+                                    className="object-cover"
+                                />
+                            </div>
+                        )}
+                    </Item>
                 ))}    
             </div>
         </Gallery>
