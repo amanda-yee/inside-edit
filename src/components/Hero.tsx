@@ -10,6 +10,7 @@ export default function Hero() {
           src="/hero-image.jpg"
           alt="Hero Image"
           layout="fill" // fill parent container
+          sizes="100vw"
           priority // tells next.js to load image asap
         />
 
@@ -37,8 +38,8 @@ export default function Hero() {
   
 
         <div className="absolute z-10 bottom-5 left-1/2 transform -translate-x-1/2"> 
-          <a href="#main">
-            <ArrowDown className="h-10 text-[#ffffff] hover:text-[#b6b5af]" />
+          <a href="#main" className="flex items-center justify-center w-12 h-12 rounded-full bg-black text-white hover:bg-white hover:text-black transition-colors">
+            <ArrowDown className="h-6" />
           </a>
         </div>
       </main>
