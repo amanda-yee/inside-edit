@@ -37,9 +37,9 @@ export default function Main() {
                         />
 
                         <ProjectCard 
-                        title="Upstate Barn"
-                        imgSrc="/upstate-barn/photo1.webp"
-                        pageId="projects/upstate-barn"
+                        title="Vermont"
+                        imgSrc="/vermont/photo-11_resized_for_main_page.webp"
+                        pageId="projects/vermont"
                         />
 
                         <ProjectCard 

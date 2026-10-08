@@ -29,7 +29,7 @@ export default function AboutPage() {
                 <div className="flex flex-col lg:flex-row pr-[2%] pb-12 max-w-[100%]">
                     <div className="lg:flex-[2] font-geist pr-12 pb-6">
                         <p>
-                            Laura is a fun, dynamic interior designer bringing warmth and energy to homes in New York City and the Hudson Valley. With a philosophy rooted in warm minimalism, she designs spaces that feel inviting, personal, and never cookie-cutter. She listens closely to her clients, translating their stories and lifestyle into interiors that feel both effortless and uniquely their own.
+                            Laura is a fun, dynamic interior designer bringing warmth and energy to homes in New York City, the Hudson Valley, and beyond. With a philosophy rooted in warm minimalism, she designs spaces that feel inviting, personal, and never cookie-cutter. She listens closely to her clients, translating their stories and lifestyle into interiors that feel both effortless and uniquely their own.
                             <br /><br />
                             Growing up in a family of creative people, she was surrounded by artistry, invention, and the freedom to explore ideas, an upbringing that continues to fuel her adventurous approach to design. Her path began with a background in chemistry, where she developed a sharp eye for detail and balance, skills she now brings into every project. 
                             <br /><br />
@@ -47,33 +47,6 @@ export default function AboutPage() {
                         height={400}
                         priority
                         />
-                    </div>
-                </div>
-
-                <div className="pb-6">
-                    <h2 className="font-bold pb-6">
-                        client love
-                    </h2>
-
-                    <div className="flex gap-12 font-geist lg:max-w-[75%]">
-                        <div className="flex-1">
-                            <p>
-                                &quot;They turned our &apos;forever home&apos; into a place that actually feels like us - 
-                                comfortable, intentional, and full of surprises we never would&apos;ve thought of.&quot;
-                            </p>
-                            <br></br>
-                            <p>
-                                &quot;Working with Laura was an absolute joy. 
-                                She really took the time to understand how I live and what I value, and the result is a home that feels unmistakably me. 
-                                Every detail was thoughtful, every challenge was met with creativity, and the final space is something I’m proud to show off.&quot;
-                            </p>
-                            <br></br>
-                            <p>
-                                &quot;Inside Edit exceeded every expectation we had. 
-                                Their eye for detail, clear communication, and ability to translate our vague ideas into a cohesive, beautiful design were exceptional. 
-                                The project ran smoothly from start to finish, and the end result elevated our entire home.&quot;
-                            </p>
-                        </div>
                     </div>
                 </div>
 
