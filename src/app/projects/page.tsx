@@ -23,18 +23,21 @@ export default function ProjectsPage() {
                         title="Hudson Valley"
                         imgSrc="/hudson-valley/photo1.webp"
                         projectId="hudson-valley"
+                        priority
                     />
 
                     <ProjectCardMini 
                         title="5th Avenue"
                         imgSrc="/5th-avenue/photo1.webp"
                         projectId="5th-avenue"
+                        priority
                     />
 
                     <ProjectCardMini 
                         title="Upper East Side"
                         imgSrc="/ues/photo4.webp"
                         projectId="ues"
+                        priority
                     />
 
                     <ProjectCardMini 
