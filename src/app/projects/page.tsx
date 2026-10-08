@@ -65,8 +65,14 @@ export default function ProjectsPage() {
                         title="Bedford"
                         imgSrc="/bedford/main_profile_picture.webp"
                         projectId="bedford"
-                    /> 
-                    
+                    />
+
+                    <ProjectCardMini
+                        title="Vermont"
+                        imgSrc="/vermont/photo-11.webp"
+                        projectId="vermont"
+                    />
+
                 </div>
             </div>
         </div>
