@@ -4,8 +4,6 @@ import NavBarTop from "@/components/NavBarTop";
 import Image from 'next/image';
 import GalleryClient from '@/components/GalleryClient';
 
-// import ImageCarousel from "@/components/ImageCarousel";
-
 // this will pre-generate all the paths at build time, e.g. /projects/hudson-valley, /projects/upstate-new-york
 // [slug] is a dynamic segment, enabling this one page component to handle multiple routes
 export async function generateStaticParams() {
@@ -35,7 +33,7 @@ export default async function IndividualProjectPage({ params }) {
           {project.title}
         </h1>
 
-        {project.subheading2 && (
+        {project.subheading && (
           <h2 className="pb-6">
           {project.subheading}
         </h2>

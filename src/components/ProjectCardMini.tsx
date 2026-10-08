@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-// import Link from "next/link";
 
 type ProjectCardMiniProps = {
     title: string;
     imgSrc: string;
     projectId: string;
+    priority?: boolean;
   };
 
 
-export default function ProjectCardMini( {title, imgSrc, projectId}: ProjectCardMiniProps ) {
+export default function ProjectCardMini( {title, imgSrc, projectId, priority = false}: ProjectCardMiniProps ) {
     return (
         // justify-end makes card sit flush at bottom of the grid row (accounts for long titles)       
         <div className="flex flex-col justify-end pb-10 px-2">
@@ -27,8 +27,8 @@ export default function ProjectCardMini( {title, imgSrc, projectId}: ProjectCard
                 sizes="(max-width: 768px) 100vw,
                        (max-width: 1200px) 50vw,
                        33vw"
+                priority={priority}
                 />
-                priority
                 </Link>
             </div>
         </div>
