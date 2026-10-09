@@ -26,6 +26,13 @@ export default function ProjectsPage() {
                         priority
                     />
 
+                    <ProjectCardMini
+                        title="Vermont"
+                        imgSrc="/vermont/photo-11.webp"
+                        projectId="vermont"
+                        priority
+                    />
+
                     <ProjectCardMini 
                         title="5th Avenue"
                         imgSrc="/5th-avenue/photo1.webp"
@@ -37,7 +44,6 @@ export default function ProjectsPage() {
                         title="Upper East Side"
                         imgSrc="/ues/photo4.webp"
                         projectId="ues"
-                        priority
                     />
 
                     <ProjectCardMini 
@@ -68,12 +74,6 @@ export default function ProjectsPage() {
                         title="Bedford"
                         imgSrc="/bedford/main_profile_picture.webp"
                         projectId="bedford"
-                    />
-
-                    <ProjectCardMini
-                        title="Vermont"
-                        imgSrc="/vermont/photo-11.webp"
-                        projectId="vermont"
                     />
 
                 </div>
