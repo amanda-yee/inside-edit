@@ -32,13 +32,13 @@ export default function Main() {
                     <div className="flex flex-col md:flex-row justify-between">
                         <ProjectCard 
                         title="Hudson Valley"
-                        imgSrc="/hudson-valley/photo1.webp"
+                        imgSrc="/hudson-valley/photo1_resized_for_main_page.webp"
                         pageId="projects/hudson-valley"
                         />
 
                         <ProjectCard 
                         title="Vermont"
-                        imgSrc="/vermont/photo-11_resized_for_main_page.webp"
+                        imgSrc="/vermont/photo-11.webp"
                         pageId="projects/vermont"
                         />
 
