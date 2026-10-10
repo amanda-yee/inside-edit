@@ -13,12 +13,6 @@ export const projectsData = [
   {
     slug: "hudson-valley",
     title: "Hudson Valley",
-    subheading: "Historic home",
-    description: "This project was all about balance: honoring the soul of a historic home while creating a serene, layered retreat for modern family life. The bones were beautiful - rich with original millwork, hand-laid floors, and timeworn charm - but the interiors needed to breathe. \n\n \
-    We opened up key spaces to let in the light and the views, then softened and brightened the palette to reflect the landscape beyond the windows. Throughout the home, we blended textured neutrals, soft upholstery, and warm woods with unexpected, whimsical touches - a hand-painted wall here, a sculptural sconce there - to keep things feeling playful but polished. \n\n \
-    Every room was approached with a livable elegance in mind. Think: refined details, but nothing too precious. Durable fabrics, thoughtful storage, and family-friendly flow make this home as functional as it is beautiful.\n\n \
-    We preserved and reimagined many of the home’s original architectural details - from the stately stair banister to the intricate moldings - giving them new life in a space that now feels open, comfortable, and deeply personal.\n\n \
-    It’s a home with history - and now, a fresh chapter of warmth, light, and livability.",
     media: [
       {src: '/hudson-valley/photo1.webp', width: 1600, height: 2400},
       {src: '/hudson-valley/photo2.webp', width: 1600, height: 2000},
@@ -239,6 +233,9 @@ export const projectsData = [
       {src: '/vermont/photo-80.webp', width: 1600, height: 2240},
       {src: '/vermont/photo-84.webp', width: 1600, height: 2133},
       {src: '/vermont/photo-90.webp', width: 1600, height: 1067},
+      {src: '/vermont/photo-1.webp', width: 1600, height: 1067},
+      {src: '/vermont/photo-3.webp', width: 1600, height: 2400},
+      {src: '/vermont/photo-7.webp', width: 1600, height: 2133},
     ],
     thumbnailCount: 6
   },

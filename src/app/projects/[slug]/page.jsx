@@ -33,12 +33,6 @@ export default async function IndividualProjectPage({ params }) {
           {project.title}
         </h1>
 
-        {project.subheading && (
-          <h2 className="pb-6">
-          {project.subheading}
-        </h2>
-        )}
-
         <div className="lg:max-w-[90%]">
           <div className="pb-8">
             <p style={{ whiteSpace: "pre-line" }} className="font-geist">
